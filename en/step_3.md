@@ -31,3 +31,30 @@ when [q v] key pressed
 ```
 
 --- /task ---
+
+--- task ---
+
+Add a `forever`{:class="block3control"} loop.
+
+```blocks3
+when [q v] key pressed
++ forever
+end
+```
+
+--- /task ---
+
+--- task ---
+
+from the Raspberry Pi GPIO block palette, add a block that says `set gpio 7 to output low`{:class="block3extensions"}.
+
+Add this block into the `forever`{:class="block3control"} loop.
+
+```blocks3
+when [q v] key pressed
+forever
+    + set gpio (7 v) to output [low v]
+end
+```
+
+--- /task ---
