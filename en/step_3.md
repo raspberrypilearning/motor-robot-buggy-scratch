@@ -20,4 +20,14 @@ To do this, click on the add an extension button and choose the `Raspberry Pi GP
 
 --- /task ---
 
+First of all, you're going to write a software _kill code_ script to stop all the motors. If ever anything unexpected happens, just press **q** to stop the motors.
 
+--- task ---
+
+Grab a `when space key pressed`{:class="block3events"} event block and change the event key to **q**.
+
+```blocks3
+when [q v] key pressed
+```
+
+--- /task ---
