@@ -53,7 +53,7 @@ Add this block into the `forever`{:class="block3control"} loop.
 ```blocks3
 when [q v] key pressed
 forever
-+   set gpio (7 v) to output [low v]
++   set gpio (7 v) to output [low v] ::extension
 end
 ```
 
@@ -68,10 +68,10 @@ Add a blocks that `set gpio 8, 9 and 10 to output low`{:class="block3extensions"
 ```blocks3
 when [q v] key pressed
 forever
-    set gpio (7 v) to output [low v]
-+   set gpio (8 v) to output [low v]
-+   set gpio (9 v) to output [low v]
-+   set gpio (10 v) to output [low v]
+    set gpio (7 v) to output [low v] ::extension
++   set gpio (8 v) to output [low v] ::extension
++   set gpio (9 v) to output [low v] ::extension
++   set gpio (10 v) to output [low v] ::extension
 end
 ```
 
