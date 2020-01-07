@@ -59,9 +59,9 @@ You can find the [completed project Scratch files here](http://rpf.io/p/en/motor
 title: What you will learn
 ---
 
-+ To wire simple circuits using button switches, LEDs, buzzers and a Raspberry Pi
-+ To code electronic **inputs** in Scratch 3
-+ To combine real-world electronic inputs and outputs with on-screen Scratch activity
++ To wire motors to a controller board and attach this to a Raspberry Pi
++ To code motors as electronic **outputs** in Scratch 3
++ To control your robot buggy in different ways using Scratch 3
 
 --- /collapse ---
 
@@ -70,8 +70,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/button-switch-scratch-pi/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/motor-robot-buggy-scratch/print){:target="_blank"}.
 
-You can find the [completed project Scratch files here](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/button-switch-scratch-pi-go){:target="_blank"}.
+You can find the [completed project Scratch files here](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
 
 --- /collapse ---
