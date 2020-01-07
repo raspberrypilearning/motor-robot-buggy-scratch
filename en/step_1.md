@@ -36,6 +36,7 @@ title: What you will need
 + A [roller ball castor](https://shop.pimoroni.com/products/pololu-ball-caster-with-3-4-metal-ball?variant=390424422){:target="_blank"} or just someting smooth such as a table tennis ball
 
 **Note:** Many low cost gear motors are available without wires already attached. These will work fine but unless you are going to solder wires on yourself, connecting to the motor controller is much trickier than motors that come with wires attached.
+If you do wish to solder wires onto gear motors, you will find help on how to do so in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
 There are also kits available that contain all the robot components you will need such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
 
 ### Software
