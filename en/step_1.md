@@ -1,5 +1,5 @@
 --- no-print ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers and button switches, and a [Python robot buggy project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers and button switches, and a [Python robot buggy project](https://https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
@@ -16,11 +16,11 @@ This projects follows on from the **LEDs, buzzers and scratch games** project lo
 ### What you will make
 
 --- no-print ---
-![Complete project](images/whichLED_completedTask.gif)
+![Complete project](images/robot_completedTask.gif)
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/whichLED_completedTask.png)
+![Complete project](images/robot_completedTask.png)
 --- /print-only ---
 
 --- collapse ---
