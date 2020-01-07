@@ -1,5 +1,5 @@
 --- no-print ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers and button switches, and a [Python robot buggy project](https://https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers and button switches, and a [Python robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
@@ -8,10 +8,10 @@ This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is al
 
 ## Introduction
 
-In this project you will learn how to wire and control button switches as electronic inputs for a Raspberry Pi 4 using the latest version of Scratch. 
-You will combine these with simple outputs such as LEDs and Scratch to work with each other to add physical world inputs and outputs to on-screen Scratch games.
+In this project you will learn how to wire and control button motors as electronic outputs using a simple motor controller and a Raspberry Pi 4 running the latest version of Scratch. 
+You will make a robot buggy and write different Scratch programs to control your robot buggy in different ways.
 
-This projects follows on from the **LEDs, buzzers and scratch games** project looking at physical computing inputs with Scratch 3 and Raspberry Pi.
+This projects follows on from the **LEDs, buzzers and scratch games** outputs and **Button switches, Scratch 3 and Raspberry Pi 4** inputs physical computing project both using Scratch 3 and a Raspberry Pi 4.
 
 ### What you will make
 
