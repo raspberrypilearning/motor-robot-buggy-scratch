@@ -19,3 +19,47 @@ Most _plug on_ motor controller boards have a similar format with a **power in**
 ![Motor controller on GPIO pins closeup](images/setup_mcOnGPIOcloseup.png)
 
 **Note:** It is important to get the battery pack polarity correct but when connecting the motors polarity is not essential, it simply affects which GPIO pin controls forwards or backwards.
+
+It is usually easier and safer to connect your battery box and motors before connecting the motor controller board to the Pi.
+
+--- task ---
+
+Connect the positive (red) wire from the battery box to the positive terminal on the motor controller. On newer models of the CamJam motor controller this is simply marked with a **+** symbol. On older versions (as in the picture) it is marked as VIN (voltage in).
+
+To connect the wire, unscrew the terminal screw, insert the exposed wire (not the coloured insulation covering) and tighten the screw so that the terminal _clamps_ the wire in place.
+
+![Connect battery box](images/setup_battBoxPos.png)
+
+--- /task ---
+
+--- task ---
+
+Next, connect the negative (black) wire from the battery box to the negative terminal on the motor controller. On newer models of the CamJam motor controller this is marked with a **-** symbol. On the older versions it is marked as GND (ground).
+
+![Connect battery box](images/setup_battBoxNeg.png)
+
+--- /task ---
+
+--- task ---
+
+Now connect the first motor by connecting the two motor wires to the two terminals marked **Motor A**. It does not matter which way round the wires go at this stage.
+
+![Connect motor 1](images/setup_motor1.png)
+
+--- /task ---
+
+--- task ---
+
+Repeat for the second motor by connecting the second motor's wires to the two terminals marked **Motor B**. It does not matter which way round the wires go or that they match the order of the motor A wires.
+
+![Connect motor 1](images/setup_motor2.png)
+
+--- /task ---
+
+--- task ---
+
+Finally, connect the motor controller to the Raspberry Pi GPIO pins. In this case, the controller goes over the outermost pins facing inwards over the Pi.
+
+![Connect motor controller](images/setup_mcOn.png)
+
+--- /task ---

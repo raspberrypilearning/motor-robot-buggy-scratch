@@ -34,6 +34,8 @@ title: What you will need
 + 2 [gear motors](https://thepihut.com/products/adafruit-dc-gearbox-motor-tt-motor-200rpm-3-to-6vdc-ada3777){:target="_blank"}
 + 2 [wheels](https://thepihut.com/products/adafruit-black-multi-hub-wheel-for-tt-lego-or-n20-motor-65mm-diameter-ada4205){:target="_blank"} for the gear motors
 + A [roller ball castor](https://shop.pimoroni.com/products/pololu-ball-caster-with-3-4-metal-ball?variant=390424422){:target="_blank"} or just someting smooth such as a table tennis ball
++ A 4x AA battery box with on/off switch
++ Materials to make you robot buggy chassis
 
 **Note:** Many low cost gear motors are available without wires already attached. These will work fine but unless you are going to solder wires on yourself, connecting to the motor controller is much trickier than motors that come with wires attached.
 If you do wish to solder wires onto gear motors, you will find help on how to do so in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
