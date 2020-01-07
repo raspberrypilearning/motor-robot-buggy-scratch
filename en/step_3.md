@@ -53,7 +53,7 @@ Add this block into the `forever`{:class="block3control"} loop.
 ```blocks3
 when [q v] key pressed
 forever
-    + set gpio (7 v) to output [low v]
++   set gpio (7 v) to output [low v]
 end
 ```
 
