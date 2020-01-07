@@ -63,3 +63,11 @@ Finally, connect the motor controller to the Raspberry Pi GPIO pins. In this cas
 ![Connect motor controller](images/setup_mcOn.png)
 
 --- /task ---
+
+--- task ---
+
+If you have not already done so, put 4 AA batteries in the battery box.
+
+--- /task ---
+
+That's everything connected. The next step is to start coding in Scratch 3 to get things moving.
