@@ -13,3 +13,9 @@ The instructions here are for a [CamJam EduKit 3 motor controller](https://thepi
 ![Motor controller on GPIO pins](images/setup_mcOnGPIO.png)
 
 The controller fits to the end GPIO pins nearest the edge of the board with the body of the controller facing inwards over the Raspberry Pi.
+
+Most _plug on_ motor controller boards have a similar format with a **power in** terminal, a **negative** terminal and then a **positive** and **negative** terminal for each motor output. In most cases, the Pi still needs its own power supply and a battery pack is used to power the motors via the controller.
+
+![Motor controller on GPIO pins closeup](images/setup_mcOnGPIOcloseup.png)
+
+**Note:** It is important to get the battery pack polarity correct but when connecting the motors polarity is not essential, it simply affects which GPIO pin controls forwards or backwards.
