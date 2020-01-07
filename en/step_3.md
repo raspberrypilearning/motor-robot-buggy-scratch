@@ -6,7 +6,7 @@ Any motor controller for two motors will use four GPIO pins to send signals to t
 + Motor B clockwise
 + Motor B counter-clockwise
 
-For the CamJam EduKit motor in these instructions, the GPIO pin numbers are 7 and 8 for motor A, and 9 and 10 for motor B.
+For the CamJam EduKit motor in these instructions, the GPIO pin numbers are 9 and 10 for motor A, and 7 and 8 for motor B.
 
 Let's write some simple code to test that everything is working and which pin makes each wheel go in each direction.
 
@@ -54,6 +54,24 @@ Add this block into the `forever`{:class="block3control"} loop.
 when [q v] key pressed
 forever
 +   set gpio (7 v) to output [low v]
+end
+```
+
+--- /task ---
+
+This will turn GPIO pin 7 low (off) and keep it off. Now you need more of these blocks for pins 8, 9 and 10.
+
+--- task ---
+
+Add a blocks that `set gpio 8, 9 and 10 to output low`{:class="block3extensions"} to the forever loop.
+
+```blocks3
+when [q v] key pressed
+forever
+    set gpio (7 v) to output [low v]
++   set gpio (8 v) to output [low v]
++   set gpio (9 v) to output [low v]
++   set gpio (10 v) to output [low v]
 end
 ```
 
