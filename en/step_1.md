@@ -11,7 +11,7 @@ This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is al
 In this project you will learn how to wire and control button motors as electronic outputs using a simple motor controller and a Raspberry Pi 4 running the latest version of Scratch. 
 You will make a robot buggy and write different Scratch programs to control your robot buggy in different ways.
 
-This projects follows on from the **LEDs, buzzers and scratch games** outputs and **Button switches, Scratch 3 and Raspberry Pi 4** inputs physical computing project both using Scratch 3 and a Raspberry Pi 4.
+This projects follows on from the **LEDs, buzzers and scratch games** _outputs_ and **Button switches, Scratch 3 and Raspberry Pi 4** _inputs_ physical computing project both using Scratch 3 and a Raspberry Pi 4.
 
 ### What you will make
 
@@ -30,13 +30,13 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi 4
-+ tactile button switches
-+ LEDs
-+ 47Ω (Ohm) to 330Ω resistors
-+ A buzzer
-+ A breadboard
-+ Male to Female jumper leads
-+ Female to Female jumper leads
++ A motor controller, such a the [CamJam EduKit 3 motor controller](https://thepihut.com/products/camjam-edukit-motor-controller){:target="_blank"}
++ 2 [gear motors](https://thepihut.com/products/adafruit-dc-gearbox-motor-tt-motor-200rpm-3-to-6vdc-ada3777){:target="_blank"}
++ 2 [wheels](https://thepihut.com/products/adafruit-black-multi-hub-wheel-for-tt-lego-or-n20-motor-65mm-diameter-ada4205){:target="_blank"} for the gear motors
++ A [roller ball castor](https://shop.pimoroni.com/products/pololu-ball-caster-with-3-4-metal-ball?variant=390424422){:target="_blank"} or just someting smooth such as a table tennis ball
+
+**Note:** Many low cost gear motors are available without wires already attached. These will work fine but unless you are going to solder wires on yourself, connecting to the motor controller is much trickier than motors that come with wires attached.
+There are also kits available that contain all the robot components you will need such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
 
 ### Software
 
@@ -50,7 +50,7 @@ Or go to main **Raspberry Pi menu** > **Preferences** > **Recommended Software**
 
 ### Downloads
 
-You can find the [completed project Scratch files here](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/button-switch-scratch-pi-go){:target="_blank"}.
+You can find the [completed project Scratch files here](http://rpf.io/p/en/motor-robot-buggy-scratch-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
 
 --- /collapse ---
 
