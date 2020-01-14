@@ -81,7 +81,7 @@ That's the completed _kill switch_ that will turn off all the motors. Press the 
 
 ### Test codes
 
-The next step is to write a snippet of code fro each motor that will tell you what that motor does.
+The next step is to write a snippet of code for each motor that will tell you what that motor does.
 
 --- task ---
 
@@ -102,7 +102,7 @@ when [7 v] key pressed
 +   set gpio (7 v) to output [high v] ::extension
 ```
 
-This will turn GPIO pin 7 *on*, making one motor turn in either backwards or forwards. You don't want to leave it on though!
+This will turn GPIO pin 7 **on**, making one motor turn in either backwards or forwards. You don't want to leave it on though!
 
 --- /task ---
 
@@ -117,6 +117,37 @@ set gpio (7 v) to output [high v] ::extension
 +   set gpio (7 v) to output [low v] ::extension
 ```
 
-Now the motor will turn on, showing which motor and which direction, then quickly turn off again. Press the *7* key to test it.
+Now the motor will turn on, showing which motor and which direction, then quickly turn off again. Press the **7** key to test it.
+
+--- /task ---
+
+--- task ---
+
+Now repeat that code for each of your GPIO pins 8, 9 and 10.
+
+```blocks3
+when [8 v] key pressed
+set gpio (8 v) to output [high v] ::extension
+wait (0.1) seconds
+set gpio (8 v) to output [low v] ::extension
+
+when [9 v] key pressed
+set gpio (9 v) to output [high v] ::extension
+wait (0.1) seconds
+set gpio (9 v) to output [low v] ::extension
+```
+
+Since there is no **10** key, use `when 0 key pressed`{:class="block3events"} for GPIO pin 10.
+
+```blocks3
+when [0 v] key pressed
+set gpio (10 v) to output [high v] ::extension
+wait (0.1) seconds
+set gpio (10 v) to output [low v] ::extension
+```
+
+**NOTE:** You could get away with making these blocks for pins 7 and 9 only, since pin 8 move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
+
+Press the **8**, **9** and **10** keys in turn to see what each does.
 
 --- /task ---
