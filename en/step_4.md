@@ -135,3 +135,17 @@ Click the green fag to check that your project works as expected and play around
 **Note:** If you stop the program while the motor is running, it will carry on running because the GPIO pin has been left high (on).
 
 --- /task ---
+
+### A random timer
+
+You could even add some variation in a timed project by using `random`{:class="block3operators"} blocks as your `wait`{:class="block3control"} values.
+
+```blocks3
+when flag clicked
+forever
+set gpio (7 v) to output [high v] ::extension
+wait (pick random (1) to (10) :: operators +) seconds
+set gpio (7 v) to output [low v] ::extension
+wait (15) seconds
+end
+```
