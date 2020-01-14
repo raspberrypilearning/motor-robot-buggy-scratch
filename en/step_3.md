@@ -102,4 +102,21 @@ when [7 v] key pressed
 +   set gpio (7 v) to output [high v] ::extension
 ```
 
+This will turn GPIO pin 7 *on*, making one motor turn in either backwards or forwards. You don't want to leave it on though!
+
+--- /task ---
+
+--- task ---
+
+To turn the motor off again, add a tiny `wait`{:class="block3control"} and another block to turn GPIO pin 7 off (low).
+
+```blocks3
+when [7 v] key pressed
+set gpio (7 v) to output [high v] ::extension
++   wait (0.1) seconds
++   set gpio (7 v) to output [low v] ::extension
+```
+
+Now the motor will turn on, showing which motor and which direction, then quickly turn off again. Press the *7* key to test it.
+
 --- /task ---
