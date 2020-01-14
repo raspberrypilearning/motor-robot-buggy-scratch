@@ -8,7 +8,9 @@ Any motor controller for two motors will use four GPIO pins to send signals to t
 
 For the CamJam EduKit motor in these instructions, the GPIO pin numbers are 9 and 10 for motor A, and 7 and 8 for motor B.
 
-Let's write some simple code to test that everything is working and which pin makes each wheel go in each direction.
+### Stop all motors!
+
+You're going to write some simple code to test that everything is working and test which pin makes each wheel go in each direction, but first of all, you're going to write a software _kill code_ script to stop all the motors.
 
 --- task ---
 
@@ -16,11 +18,9 @@ Open Scratch 3 and load the **Raspberry Pi GPIO** extension.
 
 To do this, click on the add an extension button and choose the `Raspberry Pi GPIO` extension.
 
-![Add nthe Raspberry Pi GPIO extension](images/testing_GPIOextension.png)
+![Add the Raspberry Pi GPIO extension](images/testing_GPIOextension.png)
 
 --- /task ---
-
-First of all, you're going to write a software _kill code_ script to stop all the motors. If ever anything unexpected happens, just press **q** to stop the motors.
 
 --- task ---
 
@@ -76,3 +76,10 @@ end
 ```
 
 --- /task ---
+
+That's the completed _kill switch_ that will turn off all the motors. Press the *q* key if ever you need to stop everything in a hurry. This is really useful if you have a motor wrapping inself round a wire!
+
+### Test codes
+
+
+
