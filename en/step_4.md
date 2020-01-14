@@ -46,6 +46,14 @@ set gpio (7 v) to output [low v] ::extension
 
 Press the **up** key to see your project working.
 
+--- no-print ---
+![Working windmill](images/motorFor_workingWindmill.gif)
+--- /no-print ---
+
+--- print-only ---
+![Working windmill](images/motorFor_workingWindmill.png)
+--- /print-only ---
+
 --- /task ---
 
 You may want to have your project motor turn in either direction and be able to change direction.
@@ -138,14 +146,20 @@ Click the green fag to check that your project works as expected and play around
 
 ### A random timer
 
+--- task ---
+
 You could even add some variation in a timed project by using `random`{:class="block3operators"} blocks as your `wait`{:class="block3control"} values.
 
 ```blocks3
 when flag clicked
 forever
 set gpio (7 v) to output [high v] ::extension
-wait (pick random (1) to (10) :: operators +) seconds
+wait (pick random (1) to (3) :: operators +) seconds
 set gpio (7 v) to output [low v] ::extension
-wait (15) seconds
+wait (pick random (3) to (15) :: operators +) seconds
 end
 ```
+
+Start your code, see how the timing works and adjust your `random`{:class="block3operators"} blocks as necessary.
+
+--- /task ---
