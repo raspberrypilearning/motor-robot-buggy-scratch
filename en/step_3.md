@@ -81,5 +81,25 @@ That's the completed _kill switch_ that will turn off all the motors. Press the 
 
 ### Test codes
 
+The next step is to write a snippet of code fro each motor that will tell you what that motor does.
 
+--- task ---
 
+Add a new `event`{:class="block3events"} block for the *7* key.
+
+```blocks3
+when [7 v] key pressed
+```
+
+--- /task ---
+
+--- task ---
+
+Under that, place a block to turn GPIO pin 7 on (high).
+
+```blocks3
+when [7 v] key pressed
++   set gpio (7 v) to output [high v] ::extension
+```
+
+--- /task ---
