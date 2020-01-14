@@ -30,6 +30,10 @@ The example windmill uses the wheel as a base for the windmill _sails_. If your 
 
 ![Motor placement](images/motorsFor_windmillMotor.png)
 
+In the example, the back of the windmill is cut out to make access to the inside much easier.
+
+![Back of windmill](images/motorsFor_windmillBack.png)
+
 --- task ---
 
 Once you have constructed your project, open Scratch 3 and start coding.
