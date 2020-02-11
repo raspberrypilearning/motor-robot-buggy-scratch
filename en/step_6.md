@@ -136,10 +136,10 @@ Inset a `pick random`{:class="block3operators"} block into each of the `waits`{:
 ```blocks3
 when [space v] key pressed
 forever
-+   set gpio (9 v) to output [high v] ::extension
-+   wait (0.8) seconds
-+   set gpio (9 v) to output [low v] ::extension
-+   wait (0.5) seconds
+   set gpio (9 v) to output [high v] ::extension
+   wait (pick random (0.4) to (1.2) :: operators +) seconds
+   set gpio (9 v) to output [low v] ::extension
+   wait (pick random (0.1) to (0.8) :: operators +) seconds
 end
 ```
 
