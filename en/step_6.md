@@ -44,7 +44,7 @@ Angle the motor as you like to protect your chosen target spot.
 
 Next comes the target - something you need to touch, retrieve, place or even make. You might even have a small jigsaw you need to make or something you need to draw before the pen gets you. It can be whatever you like.
 
-In this example we'll have a small target and a coin to retrieve and then place back exactly on the target spot before being *marked* by the pen.
+In this example we'll have a small target and a coin to retrieve and then place back exactly on the target spot before being **marked** by the pen.
 
 Place your target down in the place that is most protected and hardest to get to.
 
@@ -53,5 +53,96 @@ Place your target down in the place that is most protected and hardest to get to
 Then add the object to retrieve and place.
 
 ![Motor, wheel, pen and target](images/reaction_motorTargetCoin.png)
+
+--- /task ---
+
+That's all the making done, unless you need to adjust something once you see how it works when it is running.
+
+Now let's code your pen trap.
+
+First of all, you're going to program a _kill code_ to turn the motor off. You need to do this because if you simply stop the program when the motor is running, the motor keeps on spinning because that was the last instruction it had, or more precisely, buecause that GPIO pin remains _high_.
+
+--- task ---
+
+Select an `event`{:class="block3events"} key for your _kill code_. This example uses the *q* key for *q*uit.
+
+Set both GPIO pins, in this case 9 and 10 for motor 2, to `output low`{:class="block3extensions"}.
+
+Finally, add a `stop all`{:class="block3control"} to stop the GPIO pins being turned on again.
+
+```blocks3
+when [q v] key pressed
+set gpio (9 v) to output [low v] ::extension
+set gpio (10 v) to output [low v] ::extension
+stop [all v]
+```
+
+Since this code only turns the GPIO pins low (off), you will need to write some code turning the pins high to test it out.
+
+--- /task ---
+
+Now you can write the code to make the motor turn on and off.
+
+--- task ---
+
+Select an `event`{:class="block3events"} key to start the reaction game. Previously we have used the `green flag`{:class="block3events"} but this example will use the `SPACE`{:class="block3events"} key.
+
+Pull out a `forever`{:class="block3control"} loop from the control palette to make the code keep repeating as long as the program is running.
+
+```blocks3
+when [space v] key pressed
+forever
+end
+```
+
+--- /task ---
+
+Next, you will turn the motor **on** using GPIO pin 9 and then turn it **off** again using a very short wait to get the timing of the motor's motion.
+
+--- task ---
+
+Take two `set gpio`{:class="block3extensions"} blocks. One for **on** and one for **off**.
+
+Place these inside the `forever`{:class="block3control"} loop, each with a `wait`{:class="block3control"} block after it.
+
+Set the two `waits`{:class="block3control"} for a very short time, e.g. 0.8 seconds after turning the pin high and 0.5 seconds after turning it low again.
+
+```blocks3
+when [space v] key pressed
+forever
++   set gpio (9 v) to output [high v] ::extension
++   wait (0.8) seconds
++   set gpio (9 v) to output [low v] ::extension
++   wait (0.5) seconds
+end
+```
+
+Press `SPACE`{:class="block3events"}, or whatever event you chose, and see how it works.
+
+--- /task ---
+
+The pen should spin to a moment and then stop for an even shorter time. The short stop makes it hard to reach for the target in time but at the moment you will always know how long it stops for and which way it will spin, so there are some obvious ways to improve the game.
+
++ randomise the amount of time it spins for
++ randomise the amount of time it stops for
++ randomise the direction the pen spins in
+
+Let's randomise the timing first.
+
+--- task ---
+
+Inset a `pick random`{:class="block3operators"} block into each of the `waits`{:class="block3control"} and set them for a random very short range, e.g. 0.4 to 1.2 seconds for on and 0.1 to 0.8 seconds for off.
+
+```blocks3
+when [space v] key pressed
+forever
++   set gpio (9 v) to output [high v] ::extension
++   wait (0.8) seconds
++   set gpio (9 v) to output [low v] ::extension
++   wait (0.5) seconds
+end
+```
+
+Press `SPACE`{:class="block3events"}, or whatever event you chose, and see how it works.
 
 --- /task ---
