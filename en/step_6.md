@@ -40,3 +40,18 @@ Angle the motor as you like to protect your chosen target spot.
 
 --- /task ---
 
+--- task ---
+
+Next comes the target - something you need to touch, retrieve, place or even make. You might even have a small jigsaw you need to make or something you need to draw before the pen gets you. It can be whatever you like.
+
+In this example we'll have a small target and a coin to retrieve and then place back exactly on the target spot before being *marked* by the pen.
+
+Place your target down in the place that is most protected and hardest to get to.
+
+![Motor, wheel, pen and target](images/reaction_motorTarget.png)
+
+Then add the object to retrieve and place.
+
+![Motor, wheel, pen and target](images/reaction_motorTargetCoin.png)
+
+--- /task ---
