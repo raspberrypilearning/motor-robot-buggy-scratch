@@ -177,3 +177,22 @@ end
 ```
 
 --- /task ---
+
+--- task ---
+
+To set `direction`{:class="block3variables"} to 9 or 10, add a `pick random`{:class="block3operators"} block and set the range as from 9 to 10.
+
+Add a round `direction`{:class="block3variables"} variable block in place of `9` in each of the `set gpio`{:class="block3extensions"} blocks.
+
+```blocks3
+when [space v] key pressed
+forever
+   set [direction v] to (pick random (9) to (10) :: operators +)
+   set gpio (direction :: variables +) to output [high v] ::extension
+   wait (pick random (0.4) to (1.2)) seconds
+   set gpio (direction :: variables +) to output [low v] ::extension
+   wait (pick random (0.1) to (0.8)) seconds
+end
+```
+
+--- /task ---
