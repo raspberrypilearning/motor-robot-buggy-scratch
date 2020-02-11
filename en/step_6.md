@@ -195,4 +195,9 @@ forever
 end
 ```
 
+Press `SPACE`{:class="block3events"} to try out your new randomised direction pen code.
+
+Play around with the timings to find the right values for you.
+
 --- /task ---
+
