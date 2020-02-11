@@ -58,9 +58,9 @@ In this example, we'll start with the code from the last section for the windmil
 when flag clicked
 forever
 set gpio (7 v) to output [high v] ::extension
-wait (pick random (1) to (3) :: operators +) seconds
+wait (pick random (1) to (3)) seconds
 set gpio (7 v) to output [low v] ::extension
-wait (pick random (3) to (15) :: operators +) seconds
+wait (pick random (3) to (15)) seconds
 end
 ```
 
