@@ -119,6 +119,8 @@ end
 
 Press `SPACE`{:class="block3events"}, or whatever event you chose, and see how it works.
 
+Press `q`{:class="block3events"} when you want the motor to stop.
+
 --- /task ---
 
 The pen should spin to a moment and then stop for an even shorter time. The short stop makes it hard to reach for the target in time but at the moment you will always know how long it stops for and which way it will spin, so there are some obvious ways to improve the game.
@@ -143,6 +145,35 @@ forever
 end
 ```
 
-Press `SPACE`{:class="block3events"}, or whatever event you chose, and see how it works.
+Press `SPACE`{:class="block3events"} again to see the changes.
+
+--- /task ---
+
+The new random timing should make the game much harder and more exciting but randomising the pen direction will make it harder still.
+
+To do this, you will create a `variable`{:class="block3variables"} called `direction`{:class="block3variables"} which will be set to 9 or 10 at the start of each repeat of the `forever`{:class="block3control"} loop.
+
+Then, instead of `setting gpio`{:class="block3extensions"} `9`, you will `set gpio`{:class="block3extensions"} to the value of the `direction`{:class="block3variables"} variable, i.e. either 9 or 10.
+
+Since the variable could be 9 0r 10 for each repeat, the direction of the motor could be forwards or backwards for each repeat.
+
+Try it out.
+
+--- task ---
+
+In the variables block palette, create a new `variable`{:class="block3variables"} and call it `direction`{:class="block3variables"}.
+
+Take a `set variable`{:class="block3variables"} block for `direction`{:class="block3variables"} and place it inside the `forever`{:class="block3control"} loop, right at the top.
+
+```blocks3
+when [space v] key pressed
+forever
++   set [direction v] to ()
+   set gpio (9 v) to output [high v] ::extension
+   wait (pick random (0.4) to (1.2)) seconds
+   set gpio (9 v) to output [low v] ::extension
+   wait (pick random (0.1) to (0.8)) seconds
+end
+```
 
 --- /task ---
