@@ -36,3 +36,21 @@ The sketch above showed that the size of the chassis (the buggy's main body) wou
 There is no problem with adapting your design as you go along and you find problems, possibilities or your ideas change. The design sketch above resulted in this robot buggy. Small, compact and functional but yours can be whatever you want it to be!
 
 ![Example buggy](images/buggy_exampleBuggy.png)
+
+--- task ---
+
+Make a quick design sketch of what your buggy will look like and importantly, where all your components will fit.
+
+![Example buggy design sketch](images/buggy_designSketch.png)
+
+The sketch above showed that the size of the chassis (the buggy's main body) would be dictated by the combined width of the two gear motors and the battery box. I laid them out on a piece of cardboard to see how wide the chassis would need to be.
+
+--- /task ---
+
+![Example buggy](images/buggy_exampleBuggy2.png)
+
+![Example buggy](images/buggy_exampleBuggy3.png)
+
+![Buggy making materials](images/buggy_materials.png)
+
+![Motor sandwich](images/buggy_motorSandwich.png)
