@@ -47,10 +47,20 @@ The sketch above showed that the size of the chassis (the buggy's main body) wou
 
 --- /task ---
 
+You do not need the perfect box for a robot buggy. Chances are there will be a great box, pieces of cardboard or other packaging around your home, school or wherever you are that would make a fantastic robot buggy.
+
+![Buggy making materials](images/buggy_materials.png)
+
+It does not have to be any certain size or shape. You can experiment, evaluate and reinvent your robot as you like.
+
 ![Example buggy](images/buggy_exampleBuggy2.png)
+
+You might want to use a piece of packaging just as it comes, make adjustments to an exisiting packet make your own chassis from scratch.
 
 ![Example buggy](images/buggy_exampleBuggy3.png)
 
-![Buggy making materials](images/buggy_materials.png)
+Hot melt glue guns are not necessary but are an ideal tool for putting your robot buggy together.
+
+Having your motors secured both below and above, like a _motor sandwich_, makes them very stable. Your robot will drive much better if the motors are firmly in place rather than flopping around.
 
 ![Motor sandwich](images/buggy_motorSandwich.png)
