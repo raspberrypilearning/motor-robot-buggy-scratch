@@ -77,6 +77,23 @@ end
 
 --- /task ---
 
+--- task ---
+
+Finally, add a block from the control block palette to `stop all`{:class="block3control"} to ensure the motors don't start again until you want them to.
+
+```blocks3
+when [q v] key pressed
+forever
+    set gpio (7 v) to output [low v] ::extension
+    set gpio (8 v) to output [low v] ::extension
+    set gpio (9 v) to output [low v] ::extension
+    set gpio (10 v) to output [low v] ::extension
+end
++ stop [all v]
+```
+
+--- /task ---
+
 That's the completed _kill switch_ that will turn off all the motors. Press the *q* key if ever you need to stop everything in a hurry. This is really useful if you have a motor wrapping inself round a wire!
 
 ### Test codes
