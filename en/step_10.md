@@ -75,6 +75,20 @@ set size to (200) %
 
 --- /task ---
 
+--- task ---
+
+No you'll add the _condition_ to be checked. Is the sprite touching the mouse pointer?
+
+```blocks3
+when [space v] key pressed
+set size to (200) %
+forever
+    if () then
+        
+ end
+```
+
+--- /task ---
 
 
 
