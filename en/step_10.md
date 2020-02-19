@@ -31,6 +31,8 @@ NOTE: Your cat sprite should still have the _kill code_ that stops all motors.
 
 --- /task ---
 
+Next, let's look at the **forward** sprite
+
 --- task ---
 
 
