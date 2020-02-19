@@ -124,7 +124,7 @@ wait (0.2) seconds
 set gpio (7 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
 
-when this sprite is clicked
+when this sprite clicked
 set gpio (8 v) to output [high v] ::extension
 set gpio (9 v) to output [high v] ::extension
 wait (0.2) seconds
