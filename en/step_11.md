@@ -39,29 +39,15 @@ define [forwards]
 
 --- /task ---
 
+--- task ---
 
-
-
-
-Starting where you left off from the last **visual remote**, move the cat sprite out of the way and down to a corner to make way for a central **stop** sprite.
-
-You can set the size in the sprite informtion box at the top of the sprite window.
-
-![Sprite information box](images/altVisualRemote_spriteInformation.png)
-
-It is good practice, however, and a good habit to get used to, to use code to set the size and other details.
-
-For remote controls it is sometimes useful to stick to keyboard commands, so instead of using the green flag as an event, try using something else. The `SPACE` key is ideal being so easy to find.
-
-Add a block from the looks block palette to `set the size to 50%`{:class="block3looks"}
+Under the `Define forwards`{:class="block3myblocks"} block, add
 
 ![Cat sprite](images/spriteIcon_cat.png)
 
 ```blocks3
-when [space v] key pressed
-set size to (50) %
+define forwards
 ```
 
-NOTE: Your cat sprite should still have the _kill code_ that stops all motors.
-
 --- /task ---
+
