@@ -83,8 +83,7 @@ No you'll add the _condition_ to be checked. Is the sprite touching the mouse po
 when [space v] key pressed
 set size to (200) %
 forever
-    if () then
-        
+    if <touching (mouse-pointer v) ? :: operators +> then    
  end
 ```
 
