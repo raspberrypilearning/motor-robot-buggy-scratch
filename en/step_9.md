@@ -1,4 +1,4 @@
-## Visual Scratch remote
+## Scratch visual remote
 
 Hopefully, you can now access your Raspberry Pi remotely using Real VNC. If you cannot, it is not the end of the world. You can still code your buggy robot with cables attached but movement is much more constricted.
 
