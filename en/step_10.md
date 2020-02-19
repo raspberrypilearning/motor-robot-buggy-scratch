@@ -212,5 +212,31 @@ forever
 
 --- /task ---
 
+Now all the coding is done, test the program out. Press the `SPACE` key to start and hover over the sprites to make your buggy move.
+
+--- no-print ---
+![Robot buggy](images/altVisualRemote_gameplay.gif)
+--- /no-print ---
+
+--- print-only ---
+![Robot buggy](images/altVisualRemote_gameplay.png)
+--- /print-only ---
+
+--- task ---
+
+Think about how you would improve this remote control.
+
+I found that it was hard to look at the remote and where the mouse pointer was **and** see what the robot was doing at the same time so it would be useful to make the different direction sprites as large as they could be in the screen.
+
+--- no-print ---
+![Robot buggy](images/altVisualRemote_gameplay2.gif)
+--- /no-print ---
+
+--- print-only ---
+![Robot buggy](images/altVisualRemote_gameplay2.png)
+--- /print-only ---
+
+--- /task ---
+
 
 
