@@ -98,7 +98,7 @@ forever
 
 --- task ---
 
-Inside the conditional `if... then...`{:class="block3control"} block, place the `set gpio`{:class="block3extensions"} blocks to turn the forward motors high, or _on_.
+Inside the conditional `if... then...`{:class="block3control"} block, place the `set gpio`{:class="block3extensions"} blocks to turn the forward motors on.
 
 ![Forwards sprite](images/spriteIcon_forwards.png)
 

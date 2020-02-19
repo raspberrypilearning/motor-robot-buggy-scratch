@@ -34,20 +34,24 @@ A new event style block, `Define forwards`{:class="block3myblocks"} will appear 
 ![Cat sprite](images/spriteIcon_cat.png)
 
 ```blocks3
-define [forwards]
+define forwards
 ```
 
 --- /task ---
 
 --- task ---
 
-Under the `Define forwards`{:class="block3myblocks"} block, add
+Under the `Define forwards`{:class="block3myblocks"} block, add the two `set gpio`{:class="block3extensions"} blocks to turn the forward motors on.
 
 ![Cat sprite](images/spriteIcon_cat.png)
 
 ```blocks3
 define forwards
++ set gpio (8 v) to output [high v] ::extension
++ set gpio (10 v) to output [high v] ::extension
 ```
+
+Nothing else is needed. No wait or turning motors off. This block is simply to define what code makes the robot buggy go `forwards`{:class="block3myblocks"}.
 
 --- /task ---
 
