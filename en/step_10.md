@@ -129,14 +129,16 @@ when [space v] key pressed
 set size to (200) %
 forever
     if <touching (mouse-pointer v) ?> then
-+        set gpio (7 v) to output [high v] ::extension
-+        set gpio (9 v) to output [high v] ::extension
++        set gpio (7 v) to output [low v] ::extension
++        set gpio (9 v) to output [low v] ::extension
         set gpio (8 v) to output [high v] ::extension
         set gpio (10 v) to output [high v] ::extension
  end
 ```
 
+Test the 
+
 --- /task ---
-```
+
 
 
