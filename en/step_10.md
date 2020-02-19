@@ -51,7 +51,7 @@ You'll change this to turn the motor forward GPIO pins on when the mouse pointer
 
 --- task ---
 
-From the `events`{:class="block3events"} block palette, grab a `when space key presses`{:class="block3events"} block.
+From the `events`{:class="block3events"} block palette, grab a `when space key pressed`{:class="block3events"} block.
 
 Add a block to `set the size to 200%`{:class="block3looks"} or whatever works for you.
 

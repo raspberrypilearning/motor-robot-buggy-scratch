@@ -16,7 +16,7 @@ set gpio (7 v) to output [low v] ::extension
 set gpio (8 v) to output [low v] ::extension
 set gpio (9 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
-+ stop [all v]
+stop [all v]
 ```
 
 --- /task ---
