@@ -27,17 +27,14 @@ The first step is to make new Scratch blocks that define moving in each directio
 
 --- task ---
 
-Go to the `My Blocks`{:class="block3myblocks"} block palette and click on the `Make a Block` button. Give the new block the name **forwards**.
+Go to the `My Blocks`{:class="block3myblocks"} block palette and click on the `Make a Block` button. Give the new block the name **forwards** and click **ok**.
+
+A new event style block, `Define forwards`{:class="block3myblocks"} will appear in the red `My Blocks`{:class="block3myblocks"} colour.
 
 ![Cat sprite](images/spriteIcon_cat.png)
 
 ```blocks3
-when [q v] key pressed
-set gpio (7 v) to output [low v] ::extension
-set gpio (8 v) to output [low v] ::extension
-set gpio (9 v) to output [low v] ::extension
-set gpio (10 v) to output [low v] ::extension
-+ stop [all v]
+define [forwards]
 ```
 
 --- /task ---
