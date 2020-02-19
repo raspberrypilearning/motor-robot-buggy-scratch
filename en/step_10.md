@@ -63,13 +63,6 @@ set size to (50) %
 
 
 
-
---- task ---
-
-Move 
-
-Use the test codes from ***testing the motors with Scratch** to check what pins 7, 8, 9 and 10 control on _your_ robot buggy. This project will give examples based on the example robot so you may need to switch wires or adjust the code to suit your buggy.
-
 ```blocks3
 when [7 v] key pressed
 set gpio (7 v) to output [high v] ::extension
@@ -82,6 +75,4 @@ wait (0.1) seconds
 set gpio (9 v) to output [low v] ::extension
 ```
 
---- /task ---
 
---- task ---
