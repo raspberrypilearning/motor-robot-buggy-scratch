@@ -34,27 +34,12 @@ when [q v] key pressed
 
 --- task ---
 
-Add a `forever`{:class="block3control"} loop.
-
-```blocks3
-when [q v] key pressed
-+ forever
-end
-```
-
---- /task ---
-
---- task ---
-
 from the Raspberry Pi GPIO block palette, add a block that says `set gpio 7 to output low`{:class="block3extensions"}.
 
-Add this block into the `forever`{:class="block3control"} loop.
-
 ```blocks3
 when [q v] key pressed
-forever
-+   set gpio (7 v) to output [low v] ::extension
-end
+
++ set gpio (7 v) to output [low v] ::extension
 ```
 
 --- /task ---
@@ -63,16 +48,12 @@ This will turn GPIO pin 7 low (off) and keep it off. Now you need more of these 
 
 --- task ---
 
-Add a blocks that `set gpio 8, 9 and 10 to output low`{:class="block3extensions"} to the forever loop.
-
 ```blocks3
 when [q v] key pressed
-forever
-    set gpio (7 v) to output [low v] ::extension
-+   set gpio (8 v) to output [low v] ::extension
-+   set gpio (9 v) to output [low v] ::extension
-+   set gpio (10 v) to output [low v] ::extension
-end
+set gpio (7 v) to output [low v] ::extension
++ set gpio (8 v) to output [low v] ::extension
++ set gpio (9 v) to output [low v] ::extension
++ set gpio (10 v) to output [low v] ::extension
 ```
 
 --- /task ---
@@ -83,12 +64,10 @@ Finally, add a block from the control block palette to `stop all`{:class="block3
 
 ```blocks3
 when [q v] key pressed
-forever
-    set gpio (7 v) to output [low v] ::extension
-    set gpio (8 v) to output [low v] ::extension
-    set gpio (9 v) to output [low v] ::extension
-    set gpio (10 v) to output [low v] ::extension
-end
+set gpio (7 v) to output [low v] ::extension
+set gpio (8 v) to output [low v] ::extension
+set gpio (9 v) to output [low v] ::extension
+set gpio (10 v) to output [low v] ::extension
 + stop [all v]
 ```
 
