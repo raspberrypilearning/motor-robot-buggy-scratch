@@ -69,7 +69,7 @@ Since you want the sprite to _always_ keep checking if the mouse pointer is touc
 when [space v] key pressed
 set size to (200) %
 + forever
-+    if () then
+    if () then
 + end
 ```
 
