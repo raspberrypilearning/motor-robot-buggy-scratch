@@ -66,6 +66,8 @@ The code will be much the same for each direction so it is easiest to finish one
 
 Making sure that you have selected your **forwards** sprite, give it the code to `set the forwards gpio pins high`{:class="block3extensions"}, `wait`{:class="block3control"} and then `turn the pins low`{:class="block3extensions"} when the `sprite is clicked`{:class="block3events"}.
 
+![Forwards sprite](images/spriteIcon_forwards.png)
+
 ```blocks3
 when this sprite clicked
 set gpio (8 v) to output [high v] ::extension
@@ -94,7 +96,9 @@ Next, duplicate the **forwards** sprite by right clicking on its icon in the _sp
 
 Rename the new sprite as **backwards** and move it to the bottom of the stage as the backwards button.
 
-Change the GPIO pin values to sedn your robot backwards.
+Change the GPIO pin values to send your robot backwards.
+
+![Backwards sprite](images/spriteIcon_backwards.png)
 
 ```blocks3
 when this sprite clicked
@@ -116,6 +120,8 @@ Repeat this step for the **right** and **left** controls.
 
 ![Adding right and left sprites](images/visualRemote_directionSprites.png)
 
+![Right sprite](images/spriteIcon_right.png)
+
 ```blocks3
 when this sprite clicked
 set gpio (7 v) to output [high v] ::extension
@@ -123,6 +129,8 @@ set gpio (10 v) to output [high v] ::extension
 wait (0.2) seconds
 set gpio (7 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
+
+![Left sprite](images/spriteIcon_left.png)
 
 when this sprite clicked
 set gpio (8 v) to output [high v] ::extension

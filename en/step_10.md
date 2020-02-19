@@ -136,7 +136,55 @@ forever
  end
 ```
 
-Test the 
+Test the code by moving the mouse pointer over the forward sprite and checking that the motors turn forwards. Remember that there is no code to turn the motors off, but you can press **q** to activate the _kill code_.
+
+--- /task ---
+
+--- task ---
+
+Repeat this code for the backwards, right and left sprites, using the correct GPIO pins for each direction.
+
+![Backwards sprite](images/spriteIcon_backwards.png)
+
+```blocks3
+when [space v] key pressed
+set size to (200) %
+forever
+    if <touching (mouse-pointer v) ?> then
+        set gpio (8 v) to output [low v] ::extension
+        set gpio (10 v) to output [low v] ::extension
+        set gpio (7 v) to output [high v] ::extension
+        set gpio (9 v) to output [high v] ::extension
+ end
+```
+
+![Right sprite](images/spriteIcon_right.png)
+
+```blocks3
+when [space v] key pressed
+set size to (200) %
+forever
+    if <touching (mouse-pointer v) ?> then
+        set gpio (8 v) to output [low v] ::extension
+        set gpio (9 v) to output [low v] ::extension
+        set gpio (7 v) to output [high v] ::extension
+        set gpio (10 v) to output [high v] ::extension
+ end
+```
+
+![Left sprite](images/spriteIcon_left.png)
+
+```blocks3
+when [space v] key pressed
+set size to (200) %
+forever
+    if <touching (mouse-pointer v) ?> then
+        set gpio (7 v) to output [low v] ::extension
+        set gpio (10 v) to output [low v] ::extension
+        set gpio (8 v) to output [high v] ::extension
+        set gpio (9 v) to output [high v] ::extension
+ end
+```
 
 --- /task ---
 
