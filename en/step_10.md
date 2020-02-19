@@ -35,6 +35,8 @@ Next, let's look at the **forward** sprite.
 
 The previous code turned the forward GPIO pins on, waited and then turned them off again using the sprite being clicked as the _event_.
 
+![Forwards sprite](images/spriteIcon_forwards.png)
+
 ```blocks3
 when this sprite clicked
 set gpio (8 v) to output [high v] ::extension
@@ -53,6 +55,8 @@ From the `events`{:class="block3events"} block palette, grab a `when space key p
 
 Add a block to `set the size to 200%`{:class="block3looks"} or whatever works for you.
 
+![Forwards sprite](images/spriteIcon_forwards.png)
+
 ```blocks3
 when [space v] key pressed
 set size to (200) %
@@ -64,6 +68,7 @@ set size to (200) %
 
 Since you want the sprite to _always_ keep checking if the mouse pointer is touching the sprite, you'll need a `forever`{:class="block3control"} loop and a conditional `if... then...`{:class="block3control"} block.
 
+![Forwards sprite](images/spriteIcon_forwards.png)
 
 ```blocks3
 when [space v] key pressed
@@ -77,30 +82,61 @@ set size to (200) %
 
 --- task ---
 
-No you'll add the _condition_ to be checked. Is the sprite touching the mouse pointer?
+Next, you'll add the _condition_ to be checked - Is the sprite touching the mouse pointer?
+
+![Forwards sprite](images/spriteIcon_forwards.png)
 
 ```blocks3
 when [space v] key pressed
 set size to (200) %
 forever
-    if <touching (mouse-pointer v) ? :: operators +> then    
+    if <touching (mouse-pointer v) ? :: sensing +> then    
  end
 ```
 
 --- /task ---
 
+--- task ---
 
+Inside the conditional `if... then...`{:class="block3control"} block, place the `set gpio`{:class="block3extensions"} blocks to turn the forward motors high, or _on_.
+
+![Forwards sprite](images/spriteIcon_forwards.png)
 
 ```blocks3
-when [7 v] key pressed
-set gpio (7 v) to output [high v] ::extension
-wait (0.1) seconds
-set gpio (7 v) to output [low v] ::extension
+when [space v] key pressed
+set size to (200) %
+forever
+    if <touching (mouse-pointer v) ?> then
++        set gpio (8 v) to output [high v] ::extension
++        set gpio (10 v) to output [high v] ::extension
+ end
+```
 
-when [9 v] key pressed
-set gpio (9 v) to output [high v] ::extension
-wait (0.1) seconds
-set gpio (9 v) to output [low v] ::extension
+--- /task ---
+
+Now, whenever the mouse pointer touches the sprite, the forward motors will turn on but there is no code to turn them off again. In other words, until they receive another instruction from another sprite, the robot buggy will continue moving forwards.
+
+Since this rule will also apply to the other direction sprites, you will need to add code blocks to make sure any GPIO pins other than your **forwards** pins are turned off.
+
+--- task ---
+
+Add the `set gpio off`{:class="block3extensions"} blocks **before** the `set gpio on`{:class="block3extensions"} blocks just to make sure they are not all on at the same time.
+
+![Forwards sprite](images/spriteIcon_forwards.png)
+
+```blocks3
+when [space v] key pressed
+set size to (200) %
+forever
+    if <touching (mouse-pointer v) ?> then
++        set gpio (7 v) to output [high v] ::extension
++        set gpio (9 v) to output [high v] ::extension
+        set gpio (8 v) to output [high v] ::extension
+        set gpio (10 v) to output [high v] ::extension
+ end
+```
+
+--- /task ---
 ```
 
 
