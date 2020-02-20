@@ -146,12 +146,6 @@ when [space v] key pressed
 forwards (0.5) :: custom
 ```
 
-You will need to make sure the robot goes back to the exact same place and facing the exact same way. Otherwise you will get different results each time and getting it right will become almost possible. 
-
-Use bits of tape or other markers to mark where your robot needs to start each time.
-
-![Maze trials](images/mazeJourneys_mazeStartMarkers.png)
-
 --- no-print ---
 ![Maze trials](images/mazeJourneys_mazeTrial2.gif)
 --- /no-print ---
@@ -159,6 +153,12 @@ Use bits of tape or other markers to mark where your robot needs to start each t
 --- print-only ---
 ![Maze trials](images/mazeJourneys_mazeTrial2.png)
 --- /print-only ---
+
+You will need to make sure the robot goes back to the exact same place and facing the exact same way. Otherwise you will get different results each time and getting it right will become almost possible. 
+
+Use bits of tape or other markers to mark where your robot needs to start each time.
+
+![Maze trials](images/mazeJourneys_mazeStartMarkers.png)
 
 --- /task ---
 
