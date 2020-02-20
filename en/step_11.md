@@ -120,6 +120,7 @@ when [space v] key pressed
 forever
 +    if <key (up arrow v) pressed?> then
     else
+    end
 end
 ```
 
@@ -132,12 +133,15 @@ Duplicate the `if... then... else`{:class="block3control"} block and set the new
 ```blocks3
 if <key (down arrow v) pressed?> then
 else
+end
 
 if <key (right arrow v) pressed?> then
 else
+end
 
 if <key (left arrow v) pressed?> then
 else
+end
 
 ```
 
@@ -153,7 +157,7 @@ Add `forwards`{:class="block3myblocks"} under the `up arrow`{:class="block3sensi
 when [space v] key pressed
 forever
     if <key (up arrow v) pressed?> then
-+        forwards
++        forwards :: myblocks
     else
 end
 
