@@ -80,7 +80,7 @@ The default state for the GPIO pins when using the keyboard remote will be low (
 Create a new block for `stop`{:class="block3myblocks"} which `sets gpio pins 7, 8, 9 and 10 low`{:class="block3extensions"}.
 
 ```blocks3
-define forwards
+define stop
 set gpio (7 v) to output [low v] ::extension
 set gpio (8 v) to output [low v] ::extension
 set gpio (9 v) to output [low v] ::extension
@@ -91,3 +91,36 @@ set gpio (10 v) to output [low v] ::extension
 
 The remaining keyboard code will be `sensing`{:class="block3sensing"} `if`{:class="block3control"} keyboard keys are being pressed and turning motors `on` or `off` accordingly.
 
+--- task ---
+
+Start with an event for the code. You could use the classic `green flag`{:class="block3events"} event if you like, but using a keyboard event such as the `space`{:class="block3events"} key has advantages for remote controls when you will not always be at a computer screen to see where the green flag is.
+
+Since you want your code to keep on checking if a key is being pressed _forvever_ (as long as the program is running), pick a `forever`{:class="block3control"} loop and place it under your event.
+
+```blocks3
+when [space v] key pressed
+forever
+end
+```
+
+--- /task ---
+
+Your code will check in turn if the `forever`, `forever`, `forever` or `forever` keys are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
+
+Nested blocks are ones that fit inside each other in organised layers. You'll see how they fit together in a moment.
+
+--- task ---
+
+Grab an `if... then... else`{:class="block3control"} block and a `key space pressed?`{:class="block3sensing"} and put them together indside your forever loop.
+
+Change the key from `space`{:class="block3sensing"} to `up arrow`{:class="block3sensing"}.
+
+```blocks3
+when [space v] key pressed
+forever
++    if <key (up arrow v) pressed?> then
+    else
+end
+```
+
+--- /task ---
