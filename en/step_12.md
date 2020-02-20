@@ -75,24 +75,24 @@ forwards (0.5) :: custom
 Repeat the last step, adding a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
 
 ```blocks3
-define backwards (time :: custom +) :: custom
+define backwards (time :: custom) :: custom
 set gpio (7 v) to output [high v] ::extension
 set gpio (9 v) to output [high v] ::extension
-wait (time :: custom +) seconds
+wait (time :: custom) seconds
 set gpio (7 v) to output [low v] ::extension
 set gpio (9 v) to output [low v] ::extension
 
-define right (time :: custom +) :: custom
+define right (time :: custom) :: custom
 set gpio (7 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
-wait (time :: custom +) seconds
+wait (time :: custom) seconds
 set gpio (7 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
 
-define left (time :: custom +) :: custom
+define left (time :: custom) :: custom
 set gpio (8 v) to output [high v] ::extension
 set gpio (9 v) to output [high v] ::extension
-wait (time :: custom +) seconds
+wait (time :: custom) seconds
 set gpio (8 v) to output [low v] ::extension
 set gpio (9 v) to output [low v] ::extension
 ```
