@@ -159,19 +159,23 @@ forever
     if <key (up arrow v) pressed?> then
 +        forwards :: myblocks
     else
+    end
 end
 
 if <key (down arrow v) pressed?> then
-+    backwards
++    backwards ::myblocks
 else
+end
 
 if <key (right arrow v) pressed?> then
-+    right
++    right :: my blocks
 else
+end
 
 if <key (left arrow v) pressed?> then
-+    left
++    left :: my block
 else
+end
 
 ```
 
