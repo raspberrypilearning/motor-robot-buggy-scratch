@@ -201,7 +201,7 @@ forever
     if <key (up arrow v) pressed?> then
         forwards :: custom
     else
-        if <key (down arrow v) pressed?> then
++        if <key (down arrow v) pressed?> then
             backwards :: custom
         else
         end
@@ -240,7 +240,7 @@ forever
         if <key (down arrow v) pressed?> then
             backwards :: custom
         else
-            if <key (right arrow v) pressed?> then
++            if <key (right arrow v) pressed?> then
                 right :: custom
             else
                 if <key (left arrow v) pressed?> then
@@ -255,6 +255,29 @@ end
 ```
 
 And then the `left arrow`{:class="block3sensing"} statement goes into the `else`{:class="block3control"} section of your `if`{:class="block3control"} `right arrow`{:class="block3sensing"} statement.
+
+```blocks3
+when [space v] key pressed
+forever
+    if <key (up arrow v) pressed?> then
+        forwards :: custom
+    else
+        if <key (down arrow v) pressed?> then
+            backwards :: custom
+        else
+            if <key (right arrow v) pressed?> then
+                right :: custom
+            else
++                if <key (left arrow v) pressed?> then
+                    right :: custom
+                else
+                end
+            end
+        end
+    end
+end
+
+```
 
 --- /task ---
 
