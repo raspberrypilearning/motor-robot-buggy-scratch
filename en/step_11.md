@@ -105,7 +105,7 @@ end
 
 --- /task ---
 
-Your code will check in turn if the `forever`, `forever`, `forever` or `forever` keys are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
+Your code will check in turn if the `up`, `down`, `right` or `left` arrows are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
 
 Nested blocks are ones that fit inside each other in organised layers. You'll see how they fit together in a moment.
 
@@ -149,7 +149,7 @@ end
 
 --- task ---
 
-Add a motor movement `custom block`{:class="block3myblocks"} into each `if... then... else`{:class="block3control"} block below the `if` {:class="block3control"} `key pressed?`{:class="block3sensing"} `then` {:class="block3control"}.
+Add a motor movement `custom block`{:class="block3myblocks"} into each `if... then... else`{:class="block3control"} block below the `if`{:class="block3control"} `key pressed?`{:class="block3sensing"} `then`{:class="block3control"}.
 
 Add `forwards`{:class="block3myblocks"} under the `up arrow`{:class="block3sensing"}, `backwards`{:class="block3myblocks"} under the `down arrow`{:class="block3sensing"} and so on.
 
