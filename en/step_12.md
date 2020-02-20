@@ -60,13 +60,13 @@ set gpio (10 v) to output [low v] ::extension
 Have a look at how this has changed the `forwards`{:class="block3myblocks"} block in the `My Blocks`{:class="block3myblocks"} block palette.
 
 ```blocks3
-forwards ()
+forwards () :: custom
 ```
 
 The `forwards`{:class="block3myblocks"} block now has a new input field in which you can enter the amount of time that the GPIO pins will wait until turning off.
 
 ```blocks3
-forwards (0.5)
+forwards (0.5) :: custom
 ```
 
 `forwards 0.5`{:class="block3myblocks"} tells the robot buggy to go forwards for 0.5 seconds.
@@ -77,7 +77,7 @@ Repeat the last step, adding a `time`{:class="block3myblocks"} input for the `ti
 
 
 ```blocks3
-define forwards (time :: custom +)
+define forwards (time +) :: custom 
 set gpio (8 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
 wait (time :: custom +) seconds
