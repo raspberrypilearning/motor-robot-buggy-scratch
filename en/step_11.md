@@ -279,7 +279,7 @@ forever
                 if <key (left arrow v) pressed?> then
                     right ::myblocks
                 else
-                    stop :: My Blocks
+                    stop :: custom
                 end
             end
         end
