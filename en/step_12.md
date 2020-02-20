@@ -47,7 +47,7 @@ From your `define forwards`{:class="block3myblocks"} block, which now reads `def
 
 
 ```blocks3
-define forwards :: custom (time :: custom +)
+define forwards (time :: custom +) :: custom
 set gpio (8 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
 wait (time :: custom +) seconds
@@ -73,13 +73,7 @@ forwards (0.5)
 
 --- task ---
 
-Right-click on the `define forwards`{:class="block3myblocks"} block and choose `edit`.
-
-In the dialogue box that opens, click on the `Add an input: number or text` button.
-
-A new input entry will appear in the `forwards`{:class="block3myblocks"} block above. Give this input entry the name **time** and click `OK`.
-
-From your `define forwards`{:class="block3myblocks"} block, which now reads `define forwards (time)`{:class="block3myblocks"} drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
+Repeat the last step, adding a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
 
 
 ```blocks3
