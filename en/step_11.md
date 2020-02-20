@@ -243,10 +243,6 @@ forever
 +            if <key (right arrow v) pressed?> then
                 right :: custom
             else
-                if <key (left arrow v) pressed?> then
-                    right :: custom
-                else
-                end
             end
         end
     end
