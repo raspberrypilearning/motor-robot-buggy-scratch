@@ -240,9 +240,13 @@ forever
         if <key (down arrow v) pressed?> then
             backwards ::myblocks
         else
-            if <key (down arrow v) pressed?> then
+            if <key (right arrow v) pressed?> then
                 right ::myblocks
             else
+                if <key (left arrow v) pressed?> then
+                    right ::myblocks
+                else
+                end
             end
         end
     end
@@ -250,10 +254,40 @@ end
 
 ```
 
-Your code now checks if the `up arrow`{:class="block3sensing"} is being pressed. 
-+ `if`{:class="block3control"} it is `then`{:class="block3control"} the buggy will go `forwards`{:class="block3myblocks"}.
-+ `else`{:class="block3control"} it will check if the `down arrow`{:class="block3sensing"} is being pressed.
-And so on.
+And then the `left arrow`{:class="block3sensing"} statement goes into the `else`{:class="block3control"} section of your `if`{:class="block3control"} `right arrow`{:class="block3sensing"} statement.
 
 --- /task ---
+
+Almost there! Your code now checks if each `arrow key`{:class="block3sensing"} is being pressed in turn. If the first `arrow key`{:class="block3sensing"} is pressed, then GPIO pins are set high and the motors turn on, else the code checks the next `arrow key`{:class="block3sensing"} in the sequence. If no `arrow keys`{:class="block3sensing"} are being pressed then you need to tell all the motor GPIO pins to be set low.
+
+--- task ---
+
+Inside the final `else`{:class="block3control"} section, insert a `stop`{:class="block3myblocks"} block from `my blocks`{:class="block3myblocks"}.
+
+```blocks3
+when [space v] key pressed
+forever
+    if <key (up arrow v) pressed?> then
+        forwards :: myblocks
+    else
+        if <key (down arrow v) pressed?> then
+            backwards ::myblocks
+        else
+            if <key (right arrow v) pressed?> then
+                right ::myblocks
+            else
+                if <key (left arrow v) pressed?> then
+                    right ::myblocks
+                else
+                    stop :: My Blocks
+                end
+            end
+        end
+    end
+end
+
+```
+
+And then the `left arrow`{:class="block3sensing"} statement goes into the `else`{:class="block3control"} section of your `if`{:class="block3control"} `right arrow`{:class="block3sensing"} statement.
+
 
