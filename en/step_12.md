@@ -62,7 +62,6 @@ Have a look at how this has changed the `forwards`{:class="block3myblocks"} bloc
 ```blocks3
 forwards () :: custom
 ```
-
 The `forwards`{:class="block3myblocks"} block now has a new input field in which you can enter the amount of time that the GPIO pins will wait until turning off.
 
 ```blocks3
@@ -75,15 +74,40 @@ forwards (0.5) :: custom
 
 Repeat the last step, adding a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
 
-
 ```blocks3
-define forwards (time +) :: custom 
-set gpio (8 v) to output [high v] ::extension
+define backwards (time :: custom +) :: custom
+set gpio (7 v) to output [high v] ::extension
+set gpio (9 v) to output [high v] ::extension
+wait (time :: custom +) seconds
+set gpio (7 v) to output [low v] ::extension
+set gpio (9 v) to output [low v] ::extension
+
+define right (time :: custom +) :: custom
+set gpio (7 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
 wait (time :: custom +) seconds
-set gpio (8 v) to output [low v] ::extension
+set gpio (7 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
+
+define left (time :: custom +) :: custom
+set gpio (8 v) to output [high v] ::extension
+set gpio (9 v) to output [high v] ::extension
+wait (time :: custom +) seconds
+set gpio (8 v) to output [low v] ::extension
+set gpio (9 v) to output [low v] ::extension
 ```
+
+--- /task ---
+
+You have now defined all of your `custom`{:class="block3myblocks"} blocks and it is time to make a maze or obstacle course to challenge yourself or someone else with.
+
+--- task ---
+
+Create your own maze or obstacle course.
+
+The rules are up to you! Think about haveing enough space for the robot to get through the maze and decide waht happens, for example, if the robot touches a boundary. Perhaps your course will have objects that the robot must knock over, or avoid, or even a mix of the two!
+
+![Robot maze course](images/mazeJourneys_maze.png)
 
 --- /task ---
 
