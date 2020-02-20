@@ -31,8 +31,6 @@ Go to the `My Blocks`{:class="block3myblocks"} block palette and click on the `M
 
 A new event style block, `Define forwards`{:class="block3myblocks"} will appear in the red `My Blocks`{:class="block3myblocks"} colour.
 
-![Cat sprite](images/spriteIcon_cat.png)
-
 ```blocks3
 define forwards
 ```
@@ -43,15 +41,35 @@ define forwards
 
 Under the `Define forwards`{:class="block3myblocks"} block, add the two `set gpio`{:class="block3extensions"} blocks to turn the forward motors on.
 
-![Cat sprite](images/spriteIcon_cat.png)
-
 ```blocks3
 define forwards
 + set gpio (8 v) to output [high v] ::extension
 + set gpio (10 v) to output [high v] ::extension
 ```
 
-Nothing else is needed. No wait or turning motors off. This block is simply to define what code makes the robot buggy go `forwards`{:class="block3myblocks"}.
+Nothing else is needed. No `wait`{:class="block3control"} or `set gpio low`{:class="block3extensions"}. This block is simply to _define_ what code makes the robot buggy go `forwards`{:class="block3myblocks"}.
+
+--- /task ---
+
+--- task ---
+
+Now do the same for `backwards`{:class="block3myblocks"}, `right`{:class="block3myblocks"} and `left`{:class="block3myblocks"}.
+
+```blocks3
+define backwards
++ set gpio (7 v) to output [high v] ::extension
++ set gpio (9 v) to output [high v] ::extension
+
+define right
++ set gpio (7 v) to output [high v] ::extension
++ set gpio (10 v) to output [high v] ::extension
+
+define left
++ set gpio (8 v) to output [high v] ::extension
++ set gpio (9 v) to output [high v] ::extension
+```
+
+Note: It is not really necessary to make these `custom blocks`{:class="block3myblocks"} to make the code work, but it will make your code very easy to read and is a useful step before we move to the next section's **programmed maze journeys**.
 
 --- /task ---
 
