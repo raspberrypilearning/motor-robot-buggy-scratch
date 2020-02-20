@@ -47,10 +47,10 @@ From your `custom forward block`{:class="block3myblocks"}, which now reads `defi
 
 
 ```blocks3
-define forwards (time)
+define forwards (time :: custom +)
 set gpio (8 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
-wait (time) seconds
+wait (time :: custom +) seconds
 set gpio (8 v) to output [low v] ::extension
 set gpio (10 v) to output [low v] ::extension
 ```
