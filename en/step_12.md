@@ -111,4 +111,112 @@ The rules are up to you! Think about haveing enough space for the robot to get t
 
 --- /task ---
 
+Once you have made your course, it is time to code the journey using your `custom`{:class="block3myblocks"} blocks.
+
+It will take trial and error to get the right code. Each time you go wrong, you will need to think about whether you need to increase or reduce the time for each move or turn.
+
+Program one step at a time, check it, and only go onto the next block of code once you have everything right up to that point.
+
+--- task ---
+
+Start with the `space`{:class="block3events"} key event block and add a `forwards`{:class="block3myblocks"} block from the `My Blocks`{:class="block3myblocks"} block palette.
+
+Estimate how long you will need to go forwards depending on the obstacle course or maze that you have created. Enter this in the blank field of the `forwards`{:class="block3myblocks"} block.
+
+```blocks3
+when [space v] key pressed
+forwards (1) :: custom
+```
+Make sure your robot is at your chosen starting spot and press `space`.
+
+Did it go where you wanted? Do you need to increase the time, reduce the time or move onto the next step?
+
+--- no-print ---
+![Maze trials](images/mazeJourneys_mazeTrial1.gif)
+--- /no-print ---
+
+--- print-only ---
+![Maze trials](images/mazeJourneys_mazeTrial1.png)
+--- /print-only ---
+
+In the example, the robot buggy went to far so the time needed reducing.
+
+```blocks3
+when [space v] key pressed
+forwards (0.5) :: custom
+```
+
+You will need to make sure the robot goes back to the exact same place and facing the exact same way. Otherwise you will get different results each time and getting it right will become almost possible. 
+
+Use bits of tape or other markers to mark where your robot needs to start each time.
+
+![Maze trials](images/mazeJourneys_mazeStartMarkers.png)
+
+--- no-print ---
+![Maze trials](images/mazeJourneys_mazeTrial2.gif)
+--- /no-print ---
+
+--- print-only ---
+![Maze trials](images/mazeJourneys_mazeTrial2.png)
+--- /print-only ---
+
+--- /task ---
+
+--- task ---
+
+Add a `turn`{:class="block3myblocks"} block depending on what your robot needs to do. In the example, the robot buggy needs to turn left. Estimate how long the turn needs to be and put that in the blank input field.
+
+```blocks3
+when [space v] key pressed
+forwards (0.5) :: custom
+left (0.4) :: custom
+```
+
+Try it out. If it wasn't right, work out how you need to adjust it and try again.
+
+--- no-print ---
+![Maze trials](images/mazeJourneys_mazeTrial3.gif)
+--- /no-print ---
+
+--- print-only ---
+![Maze trials](images/mazeJourneys_mazeTrial3.png)
+--- /print-only ---
+
+--- /task ---
+
+You might well find that you made your maze far too hard for a first maze. A challenge is good but if it gets frustrating, don't be afraid to alter your maze to make it a challenge but within reach.
+
+--- no-print ---
+![Maze trials](images/mazeJourneys_mazeTrial4.gif)
+--- /no-print ---
+
+--- print-only ---
+![Maze trials](images/mazeJourneys_mazeTrial4.png)
+--- /print-only ---
+
+--- task ---
+
+Keep trying it out and adding the `blocks`{:class="block3myblocks"} you need until you finish your challenge!
+
+```blocks3
+when [space v] key pressed
+forwards (0.5) :: custom
+left (0.4) :: custom
+forwards (0.45) :: custom
+left (0.2) :: custom
+when [space v] key pressed
+forwards (0.6) :: custom
+right (0.35) :: custom
+forwards (1) :: custom
+```
+
+--- no-print ---
+![Maze trials](images/mazeJourneys_mazeTrial5.gif)
+--- /no-print ---
+
+--- print-only ---
+![Maze trials](images/mazeJourneys_mazeTrial5.png)
+--- /print-only ---
+
+--- /task ---
 
