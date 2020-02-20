@@ -124,3 +124,51 @@ end
 ```
 
 --- /task ---
+
+--- task ---
+
+Duplicate the `if... then... else`{:class="block3control"} block and set the new keys to `down arrow`{:class="block3sensing"}, `right arrow`{:class="block3sensing"} and `left arrow`{:class="block3sensing"}.
+
+```blocks3
+if <key (down arrow v) pressed?> then
+else
+
+if <key (right arrow v) pressed?> then
+else
+
+if <key (left arrow v) pressed?> then
+else
+
+```
+
+--- /task ---
+
+--- task ---
+
+Add a motor movement `custom block`{:class="block3myblocks"} into each `if... then... else`{:class="block3control"} block below the `if` {:class="block3control"} `key pressed?`{:class="block3sensing"} `then` {:class="block3control"}.
+
+Add `forwards`{:class="block3myblocks"} under the `up arrow`{:class="block3sensing"}, `backwards`{:class="block3myblocks"} under the `down arrow`{:class="block3sensing"} and so on.
+
+```blocks3
+when [space v] key pressed
+forever
+    if <key (up arrow v) pressed?> then
++        forwards
+    else
+end
+
+if <key (down arrow v) pressed?> then
++    backwards
+else
+
+if <key (right arrow v) pressed?> then
++    right
+else
+
+if <key (left arrow v) pressed?> then
++    left
+else
+
+```
+
+--- /task ---
