@@ -157,23 +157,23 @@ Add `forwards`{:class="block3myblocks"} under the `up arrow`{:class="block3sensi
 when [space v] key pressed
 forever
     if <key (up arrow v) pressed?> then
-+        forwards :: myblocks
++        forwards :: custom
     else
     end
 end
 
 if <key (down arrow v) pressed?> then
-+    backwards ::myblocks
++    backwards :: custom
 else
 end
 
 if <key (right arrow v) pressed?> then
-+    right :: my blocks
++    right :: custom
 else
 end
 
 if <key (left arrow v) pressed?> then
-+    left :: my block
++    left :: custom
 else
 end
 
@@ -199,10 +199,10 @@ Start by inserting your `if`{:class="block3control"} `down arrow`{:class="block3
 when [space v] key pressed
 forever
     if <key (up arrow v) pressed?> then
-        forwards :: myblocks
+        forwards :: custom
     else
         if <key (down arrow v) pressed?> then
-            backwards ::myblocks
+            backwards :: custom
         else
         end
     end
@@ -235,16 +235,16 @@ First, the `right arrow`{:class="block3sensing"} statement goes into the `else`{
 when [space v] key pressed
 forever
     if <key (up arrow v) pressed?> then
-        forwards :: myblocks
+        forwards :: custom
     else
         if <key (down arrow v) pressed?> then
-            backwards ::myblocks
+            backwards :: custom
         else
             if <key (right arrow v) pressed?> then
-                right ::myblocks
+                right :: custom
             else
                 if <key (left arrow v) pressed?> then
-                    right ::myblocks
+                    right :: custom
                 else
                 end
             end
@@ -268,16 +268,16 @@ Inside the final `else`{:class="block3control"} section, insert a `stop`{:class=
 when [space v] key pressed
 forever
     if <key (up arrow v) pressed?> then
-        forwards :: myblocks
+        forwards :: custom
     else
         if <key (down arrow v) pressed?> then
-            backwards ::myblocks
+            backwards :: custom
         else
             if <key (right arrow v) pressed?> then
-                right ::myblocks
+                right :: custom
             else
                 if <key (left arrow v) pressed?> then
-                    right ::myblocks
+                    right :: custom
                 else
                     stop :: custom
                 end
