@@ -16,11 +16,11 @@ This projects follows on from the **LEDs, buzzers and scratch games** _outputs_ 
 ### What you will make
 
 --- no-print ---
-![Complete project](images/robot_completedTask.gif)
+![Complete project](images/mazeJourneys_mazeTrial5.gif)
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/robot_completedTask.png)
+![Complete project](images/mazeJourneys_mazeTrial5.png)
 --- /print-only ---
 
 --- collapse ---
