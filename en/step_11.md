@@ -288,7 +288,7 @@ end
 
 ```
 
-You're done. Press the `spcae`{:class="block3control"} key to start your code and then use the arrow keys to control your robot buggy. 
+You're done. Press the `space`{:class="block3control"} key to start your code and then use the arrow keys to control your robot buggy. 
 
 You may find that it takes a moment to respond to key controls but you'll soon get used to that.
 
