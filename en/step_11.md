@@ -57,19 +57,37 @@ Now do the same for `backwards`{:class="block3myblocks"}, `right`{:class="block3
 
 ```blocks3
 define backwards
-+ set gpio (7 v) to output [high v] ::extension
-+ set gpio (9 v) to output [high v] ::extension
+set gpio (7 v) to output [high v] ::extension
+set gpio (9 v) to output [high v] ::extension
 
 define right
-+ set gpio (7 v) to output [high v] ::extension
-+ set gpio (10 v) to output [high v] ::extension
+set gpio (7 v) to output [high v] ::extension
+set gpio (10 v) to output [high v] ::extension
 
 define left
-+ set gpio (8 v) to output [high v] ::extension
-+ set gpio (9 v) to output [high v] ::extension
+set gpio (8 v) to output [high v] ::extension
+set gpio (9 v) to output [high v] ::extension
 ```
 
 Note: It is not really necessary to make these `custom blocks`{:class="block3myblocks"} to make the code work, but it will make your code very easy to read and is a useful step before we move to the next section's **programmed maze journeys**.
 
 --- /task ---
+
+The default state for the GPIO pins when using the keyboard remote will be low (off) so you'll need a custom block for `stop`{:class="block3myblocks"} too.
+
+--- task ---
+
+Create a new block for `stop`{:class="block3myblocks"} which `sets gpio pins 7, 8, 9 and 10 low`{:class="block3extensions"}.
+
+```blocks3
+define forwards
+set gpio (7 v) to output [low v] ::extension
+set gpio (8 v) to output [low v] ::extension
+set gpio (9 v) to output [low v] ::extension
+set gpio (10 v) to output [low v] ::extension
+```
+
+--- /task ---
+
+The remaining keyboard code will be `sensing`{:class="block3sensing"} `if`{:class="block3control"} keyboard keys are being pressed and turning motors `on` or `off` accordingly.
 
