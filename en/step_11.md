@@ -298,7 +298,7 @@ forever
                 if <key (left arrow v) pressed?> then
                     right :: custom
                 else
-                    stop :: custom
++                    stop :: custom
                 end
             end
         end

@@ -43,7 +43,7 @@ In the dialogue box that opens, click on the `Add an input: number or text` butt
 
 A new input entry will appear in the `forwards`{:class="block3myblocks"} block above. Give this input entry the name **time** and click `OK`.
 
-From your `custom forward block`{:class="block3myblocks"}, which now reads `define forwards (time)`{:class="block3myblocks"} drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
+From your `define forwards`{:class="block3myblocks"} block, which now reads `define forwards (time)`{:class="block3myblocks"} drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
 
 
 ```blocks3
@@ -56,3 +56,9 @@ set gpio (10 v) to output [low v] ::extension
 ```
 
 --- /task ---
+
+Have a look at how this has changed the `forwards`{:class="block3myblocks"} block in the `My Blocks`{:class="block3myblocks"} block palette.
+
+```blocks3
+forwards (time :: custom)
+```
