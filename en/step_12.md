@@ -47,7 +47,7 @@ From your `define forwards`{:class="block3myblocks"} block, which now reads `def
 
 
 ```blocks3
-define forwards (time :: custom +)
+define forwards :: custom (time :: custom +)
 set gpio (8 v) to output [high v] ::extension
 set gpio (10 v) to output [high v] ::extension
 wait (time :: custom +) seconds
@@ -60,5 +60,37 @@ set gpio (10 v) to output [low v] ::extension
 Have a look at how this has changed the `forwards`{:class="block3myblocks"} block in the `My Blocks`{:class="block3myblocks"} block palette.
 
 ```blocks3
-forwards (time :: custom)
+forwards ()
 ```
+
+The `forwards`{:class="block3myblocks"} block now has a new input field in which you can enter the amount of time that the GPIO pins will wait until turning off.
+
+```blocks3
+forwards (0.5)
+```
+
+`forwards 0.5`{:class="block3myblocks"} tells the robot buggy to go forwards for 0.5 seconds.
+
+--- task ---
+
+Right-click on the `define forwards`{:class="block3myblocks"} block and choose `edit`.
+
+In the dialogue box that opens, click on the `Add an input: number or text` button.
+
+A new input entry will appear in the `forwards`{:class="block3myblocks"} block above. Give this input entry the name **time** and click `OK`.
+
+From your `define forwards`{:class="block3myblocks"} block, which now reads `define forwards (time)`{:class="block3myblocks"} drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
+
+
+```blocks3
+define forwards (time :: custom +)
+set gpio (8 v) to output [high v] ::extension
+set gpio (10 v) to output [high v] ::extension
+wait (time :: custom +) seconds
+set gpio (8 v) to output [low v] ::extension
+set gpio (10 v) to output [low v] ::extension
+```
+
+--- /task ---
+
+
