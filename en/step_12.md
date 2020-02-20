@@ -204,7 +204,6 @@ forwards (0.5) :: custom
 left (0.4) :: custom
 forwards (0.45) :: custom
 left (0.2) :: custom
-when [space v] key pressed
 forwards (0.6) :: custom
 right (0.35) :: custom
 forwards (1) :: custom
