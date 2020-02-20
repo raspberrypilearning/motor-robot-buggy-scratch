@@ -180,3 +180,80 @@ end
 ```
 
 --- /task ---
+
+Now to _nest_ these conditional statements.
+
+--- task ---
+
+Start by inserting your `if`{:class="block3control"} `down arrow`{:class="block3sensing"} statement inside the `else`{:class="block3control"} section of your `if`{:class="block3control"} `up arrow`{:class="block3sensing"} statement.
+
+--- no-print ---
+![Nested code](images/keyRemote_nestedCode1.gif)
+--- /no-print ---
+
+--- print-only ---
+![Nested code](images/keyRemote_nestedCode1.png)
+--- /print-only ---
+
+```blocks3
+when [space v] key pressed
+forever
+    if <key (up arrow v) pressed?> then
+        forwards :: myblocks
+    else
+        if <key (down arrow v) pressed?> then
+            backwards ::myblocks
+        else
+        end
+    end
+end
+
+```
+
+Your code now checks if the `up arrow`{:class="block3sensing"} is being pressed. 
++ `if`{:class="block3control"} it is `then`{:class="block3control"} the buggy will go `forwards`{:class="block3myblocks"}.
++ `else`{:class="block3control"} it will check if the `down arrow`{:class="block3sensing"} is being pressed.
+And so on.
+
+--- /task ---
+
+--- task ---
+
+Now do the same for the `right arrow`{:class="block3sensing"} and `left arrow`{:class="block3sensing"} statements.
+
+First, the `right arrow`{:class="block3sensing"} statement goes into the `else`{:class="block3control"} section of your `if`{:class="block3control"} `down arrow`{:class="block3sensing"} statement.
+
+--- no-print ---
+![Nested code](images/keyRemote_nestedCode2.gif)
+--- /no-print ---
+
+--- print-only ---
+![Nested code](images/keyRemote_nestedCode2.png)
+--- /print-only ---
+
+```blocks3
+when [space v] key pressed
+forever
+    if <key (up arrow v) pressed?> then
+        forwards :: myblocks
+    else
+        if <key (down arrow v) pressed?> then
+            backwards ::myblocks
+        else
+            if <key (down arrow v) pressed?> then
+                right ::myblocks
+            else
+            end
+        end
+    end
+end
+
+```
+
+Your code now checks if the `up arrow`{:class="block3sensing"} is being pressed. 
++ `if`{:class="block3control"} it is `then`{:class="block3control"} the buggy will go `forwards`{:class="block3myblocks"}.
++ `else`{:class="block3control"} it will check if the `down arrow`{:class="block3sensing"} is being pressed.
+And so on.
+
+--- /task ---
+
