@@ -53,7 +53,7 @@ Or go to main **Raspberry Pi menu** > **Preferences** > **Recommended Software**
 
 ### Downloads
 
-You can find the [completed project Scratch files here](http://rpf.io/p/en/motor-robot-buggy-scratch-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
+You can find the [completed project Scratch files here](http://rpf.io/p/en/motor-robot-buggy-scratch-get){:target="_blank"} and a [complete wiring image here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -75,6 +75,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/motor-robot-buggy-scratch/print){:target="_blank"}.
 
-You can find the [completed project Scratch files here](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
+You can find the [completed project Scratch files here](http://rpf.io/p/en/motor-robot-buggy-scratch-get){:target="_blank"} and a [complete wiring image here](http://rpf.io/p/en/motor-robot-buggy-scratch-go){:target="_blank"}.
 
 --- /collapse ---

@@ -81,7 +81,7 @@ To make the challenge hard, which also makes it fun, you will need to:
 
 --- hint ---
 
-Making it hard to predict when the windmill will start and stop is easy. Just add random number blocks to your `wait`{:class="block3control"} times.
+Making it hard to predict when the windmill will start and stop is easy. Just add `random number`{:class="block3operators"} blocks to your `wait`{:class="block3control"} times.
 
 You will also need to make the numbers **much** lower. You will need to experiment to see what works best in your project but the windmill example used `wait`{:class="block3control"} times between `0.1`{:class="block3control"} and `1.5 seconds`{:class="block3control"} only!
 
@@ -104,3 +104,5 @@ end
 --- /hint ---
 
 --- /hints ---
+
+
