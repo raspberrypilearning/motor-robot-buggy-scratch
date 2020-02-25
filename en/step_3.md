@@ -38,7 +38,6 @@ from the Raspberry Pi GPIO block palette, add a block that says `set gpio 7 to o
 
 ```blocks3
 when [q v] key pressed
-
 + set gpio (7 v) to output [low v] ::extension
 ```
 
