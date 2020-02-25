@@ -80,7 +80,7 @@ The next step is to write a snippet of code for each motor that will tell you wh
 
 --- task ---
 
-Add a new `event`{:class="block3events"} block for the *7* key.
+Add a new `event`{:class="block3events"} block for when the **7** key is pressed.
 
 ```blocks3
 when [7 v] key pressed
@@ -141,7 +141,7 @@ wait (0.1) seconds
 set gpio (10 v) to output [low v] ::extension
 ```
 
-**NOTE:** You could get away with making these blocks for pins 7 and 9 only, since pin 8 move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
+**NOTE:** You could get away with making these blocks for pins 7 and 9 only, since pin 8 will move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
 
 Press the **8**, **9** and **10** keys in turn to see what each does.
 

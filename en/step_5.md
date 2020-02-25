@@ -58,9 +58,9 @@ In this example, we'll start with the code from the last section for the windmil
 when flag clicked
 forever
 set gpio (7 v) to output [high v] ::extension
-wait (pick random (1) to (3)) seconds
+wait (2) seconds
 set gpio (7 v) to output [low v] ::extension
-wait (pick random (3) to (15)) seconds
+wait (15) seconds
 end
 ```
 
@@ -81,9 +81,9 @@ To make the challenge hard, which also makes it fun, you will need to:
 
 --- hint ---
 
-Making it hard to predict when the windmill will start and stop is easy. Just keep the random wait blocks.
+Making it hard to predict when the windmill will start and stop is easy. Just add random number blocks to your `wait`{:class="block3control"} times.
 
-The biggest change is to make the numbers much lower. You will need to experiment to see what works best in your project but the windmill example used `wait`{:class="block3control"} times between `0.1`{:class="block3control"} and `1.5 seconds`{:class="block3control"} only!
+You will also need to make the numbers **much** lower. You will need to experiment to see what works best in your project but the windmill example used `wait`{:class="block3control"} times between `0.1`{:class="block3control"} and `1.5 seconds`{:class="block3control"} only!
 
 --- /hint ---
 

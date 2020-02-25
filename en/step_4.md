@@ -1,12 +1,12 @@
 ## What are motors for?
 
-You have two motors and two wheels. You can control them in Scratch and now you know what each GPIO pin does.
+You have two motors and two wheels. You can control them in Scratch now that you know what each GPIO pin does.
 
-What next? What can you do with two motors?
+What next? **What** can you do with two motors?
 
 The obvious answer is to build a motorised buggy but with a little imagination, there's much more you could do.
 
-What do you want your motor to do?
+What do you **want** your motor to do?
 
 ### Anything that spins?
 
@@ -85,7 +85,7 @@ Add equivalent blocks to turn GPIO pin 8 on and off. Again, make sure that pin 7
 
 ```blocks3
 when [right arrow v] key pressed
-+   set gpio (7 v) to output [low v] ::extension
+set gpio (7 v) to output [low v] ::extension
 set gpio (8 v) to output [high v] ::extension
 
 when [left arrow v] key pressed
@@ -145,25 +145,5 @@ end
 Click the green fag to check that your project works as expected and play around with the wait times till they work as you like.
 
 **Note:** If you stop the program while the motor is running, it will carry on running because the GPIO pin has been left high (on).
-
---- /task ---
-
-### A random timer
-
---- task ---
-
-You could even add some variation in a timed project by using `random`{:class="block3operators"} blocks as your `wait`{:class="block3control"} values.
-
-```blocks3
-when flag clicked
-forever
-set gpio (7 v) to output [high v] ::extension
-wait (pick random (1) to (3) :: operators +) seconds
-set gpio (7 v) to output [low v] ::extension
-wait (pick random (3) to (15) :: operators +) seconds
-end
-```
-
-Start your code, see how the timing works and adjust your `random`{:class="block3operators"} blocks as necessary.
 
 --- /task ---
