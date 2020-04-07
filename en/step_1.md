@@ -1,17 +1,17 @@
 --- no-print ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers and button switches, and a [Python robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers, and button switches, and a [Python robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a _physical computing for Scratch 1.4 project_ where you can learn about programming LEDs, buzzers and button switches, and a _Python robot buggy project_, both of which can be used with earlier Raspberry Pi models.
+This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a _physical computing for Scratch 1.4 project_ where you can learn about programming LEDs, buzzers, and button switches, and a _Python robot buggy project_, both of which can be used with earlier Raspberry Pi models.
 --- /print-only ---
 
 ## Introduction
 
-In this project you will learn how to wire and control button motors as electronic outputs using a simple motor controller and a Raspberry Pi 4 running the latest version of Scratch. 
+In this project you will learn how to wire and control button motors as electronic outputs, using a simple motor controller and a Raspberry Pi 4 running the latest version of Scratch. 
 You will make a robot buggy and write different Scratch programs to control your robot buggy in different ways.
 
-This projects follows on from the **LEDs, buzzers and scratch games** _outputs_ and **Button switches, Scratch 3 and Raspberry Pi 4** _inputs_ physical computing project both using Scratch 3 and a Raspberry Pi 4.
+This projects follows on from the **LEDs, buzzers, and Scratch games** _outputs_ and **Button switches, Scratch 3, and Raspberry Pi 4** _inputs_ physical computing project, both using Scratch 3 and a Raspberry Pi 4.
 
 ### What you will make
 
@@ -37,13 +37,13 @@ title: What you will need
 + A 4x AA battery box with on/off switch
 + Materials to make you robot buggy chassis
 
-**Note:** Many low cost gear motors are available without wires already attached. These will work fine but unless you are going to solder wires on yourself, connecting to the motor controller is much trickier than motors that come with wires attached.
-If you do wish to solder wires onto gear motors, you will find help on how to do so in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
-There are also kits available that contain all the robot components you will need such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
+**Note:** Many low-cost gear motors are available without wires already attached. These work fine, but unless you are going to solder wires on yourself, connecting to the motor controller is much trickier than motors that come with wires attached.
+If you do wish to solder wires onto gear motors, there is help on how to do so in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
+There are also kits available that contain all the robot components you need, such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
 
 ### Software
 
-+ Scratch 3 - if not already installed, open a terminal and type:
++ Scratch 3 — if not already installed, open a terminal and type:
 
 ```bash
 sudo apt install scratch3
@@ -62,7 +62,7 @@ You can find the [completed project Scratch files here](http://rpf.io/p/en/motor
 title: What you will learn
 ---
 
-+ To wire motors to a controller board and attach this to a Raspberry Pi
++ To wire motors to a controller board and attach it to a Raspberry Pi
 + To code motors as electronic **outputs** in Scratch 3
 + To control your robot buggy in different ways using Scratch 3
 
