@@ -7,13 +7,13 @@ copyedit: false
 last_tested: "2019-11-05"
 steps:
   - title: Introduction
-  - title: Setting up your motors
-  - title: Testing the motors with Scratch
+  - title: Set up your motors
+  - title: Test the motors with Scratch
   - title: What are motors for?
-  - title: "Challenge: Adapting your motor project"
+  - title: "Challenge: Adapt your motor project"
     challenge: true
   - title: Reaction game
-  - title: Making a robot buggy
+  - title: How to make a robot buggy
   - title: Remote Scratch using Real VNC
   - title: Scratch visual remote
   - title: Alternative visual remote
