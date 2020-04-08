@@ -1,10 +1,10 @@
-## Setting up your motors
+## Set up your motors
 
-There are two common ways to connect a **motor controller** to your Rapsberry Pi 4 depending on the controller you have.
-+ Plugging it straight onto the GPIO pins
-+ connecting it using jumper cables or wires
+There are two common ways to connect a **motor controller** to your Rapsberry Pi 4:
++ Plug it straight onto the GPIO pins
++ Use jumper cables or wires to connect it
 
-A common and very inexpensive motor controller is the L298N Dual H Bridge DC Stepper Motor Driver Controller Board which you would connect using jumper cables and wires. If you have this kind of controller, there are simple instructions on how to connect it in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
+A common and very inexpensive motor controller is the L298N Dual H Bridge DC Stepper Motor Driver Controller Board, which you would connect using jumper cables and wires. If you have this kind of controller, there are simple instructions on how to connect it in the [Python build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
 
 ![L298N dual H bridge motor controller](images/setup_L298N.png)
 
