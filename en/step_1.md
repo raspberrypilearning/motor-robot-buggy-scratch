@@ -33,7 +33,7 @@ title: What you will need
 + A motor controller, such a the [CamJam EduKit 3 motor controller](https://thepihut.com/products/camjam-edukit-motor-controller){:target="_blank"}
 + 2 [gear motors](https://thepihut.com/products/adafruit-dc-gearbox-motor-tt-motor-200rpm-3-to-6vdc-ada3777){:target="_blank"}
 + 2 [wheels](https://thepihut.com/products/adafruit-black-multi-hub-wheel-for-tt-lego-or-n20-motor-65mm-diameter-ada4205){:target="_blank"} for the gear motors
-+ A [roller ball castor](https://shop.pimoroni.com/products/pololu-ball-caster-with-3-4-metal-ball?variant=390424422){:target="_blank"} or just someting smooth such as a table tennis ball
++ A [roller ball castor](https://shop.pimoroni.com/products/pololu-ball-caster-with-3-4-metal-ball?variant=390424422){:target="_blank"} (or someting smooth, such as a table tennis ball)
 + A 4x AA battery box with on/off switch
 + Materials to make you robot buggy chassis
 
