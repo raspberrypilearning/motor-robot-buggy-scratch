@@ -11,7 +11,7 @@ This is a **Scratch 3** project and requires a **Raspberry Pi 4**. There is also
 In this project you will learn how to wire and control button motors as electronic outputs, using a simple motor controller and a Raspberry Pi 4 running the latest version of Scratch. 
 You will make a robot buggy and write different Scratch programs to control your robot buggy in different ways.
 
-This projects follows on from the **LEDs, buzzers, and Scratch games** _outputs_ and **Button switches, Scratch 3, and Raspberry Pi 4** _inputs_ physical computing project, both using Scratch 3 and a Raspberry Pi 4.
+This projects follows on from the **LEDs, buzzers, and Scratch games** _outputs_ and **Button switches, Scratch 3, and Raspberry Pi 4** _inputs_ physical computing project, which both use Scratch 3 and a Raspberry Pi 4.
 
 ### What you will make
 
