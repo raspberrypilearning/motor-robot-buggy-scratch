@@ -10,7 +10,7 @@ For the CamJam EduKit motor in these instructions, the GPIO pin numbers are 9 an
 
 ### Stop all motors!
 
-You're going to write some simple code to test that everything is working and test which pin makes each wheel go in each direction, but first of all, you're going to write a software _kill code_ script to stop all the motors.
+You're going to write some simple code to test that everything is working and see which pin makes each wheel go in each direction. But first of all, you're going to write a software _kill code_ script to stop all the motors.
 
 --- task ---
 
@@ -34,7 +34,7 @@ when [q v] key pressed
 
 --- task ---
 
-from the Raspberry Pi GPIO block palette, add a block that says `set gpio 7 to output low`{:class="block3extensions"}.
+From the Raspberry Pi GPIO block palette, add a block that says `set gpio 7 to output low`{:class="block3extensions"}.
 
 ```blocks3
 when [q v] key pressed
@@ -43,7 +43,7 @@ when [q v] key pressed
 
 --- /task ---
 
-This will turn GPIO pin 7 low (off) and keep it off. Now you need more of these blocks for pins 8, 9 and 10.
+This will turn GPIO pin 7 low (off) and keep it off. Now you need more of these blocks for pins 8, 9, and 10.
 
 --- task ---
 
@@ -72,7 +72,7 @@ set gpio (10 v) to output [low v] ::extension
 
 --- /task ---
 
-That's the completed _kill switch_ that will turn off all the motors. Press the *q* key if ever you need to stop everything in a hurry. This is really useful if you have a motor wrapping inself round a wire!
+That's the completed _kill switch_ that will turn off all the motors. Press the *q* key if ever you need to stop everything in a hurry. This is really useful if you have a motor wrapping itself round a wire!
 
 ### Test codes
 
@@ -118,7 +118,7 @@ Now the motor will turn on, showing which motor and which direction, then quickl
 
 --- task ---
 
-Now repeat that code for each of your GPIO pins 8, 9 and 10.
+Now repeat that code for each of your GPIO pins 8, 9, and 10.
 
 ```blocks3
 when [8 v] key pressed
@@ -143,6 +143,6 @@ set gpio (10 v) to output [low v] ::extension
 
 **NOTE:** You could get away with making these blocks for pins 7 and 9 only, since pin 8 will move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
 
-Press the **8**, **9** and **10** keys in turn to see what each does.
+Press the **8**, **9**, and **10** keys in turn to see what each does.
 
 --- /task ---
