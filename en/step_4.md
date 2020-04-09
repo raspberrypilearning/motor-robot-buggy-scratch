@@ -1,6 +1,6 @@
 ## What are motors for?
 
-You have two motors and two wheels. Now that you know what each GPIO pin does, you can use Scratch to control them!
+You have two motors and two wheels. Now that you know what each GPIO pin does, you can use Scratch to control them.
 
 What next? **What** can you do with two motors?
 
