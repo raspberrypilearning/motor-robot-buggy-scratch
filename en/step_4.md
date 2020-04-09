@@ -24,13 +24,13 @@ Think about where the motor will need to go for your project to work.
 
 --- /task ---
 
-The example windmill uses the wheel as a base for the windmill _sails_. If your project also used the wheels, make sure that the motor is fixed to your project in a way that doesn't make the wheel rub against anything.
+The example windmill uses the wheel as a base for the windmill _sails_. If your project also uses wheels, make sure that the motor is fixed to your project in a way that doesn't make the wheel rub against anything.
 
 **Note:** The easiest way to attach the motor for a windmill is to stick it straight to the outside of the windmill building.
 
 ![Motor placement](images/motorsFor_windmillMotor.png)
 
-In the example, the back of the windmill is cut out to make access to the inside much easier.
+In the example, the back of the windmill is cut out to make it easier to access the inside.
 
 ![Back of windmill](images/motorsFor_windmillBack.png)
 
@@ -38,7 +38,7 @@ In the example, the back of the windmill is cut out to make access to the inside
 
 Once you have constructed your project, open Scratch 3 and start coding.
 
-Your project will need different code depending on what you are trying to achieve. To make a simple motor on/off, code one keyboard key to set the correct pin on, and another to turn it off.
+Your program will depend on what you are trying to achieve. To make a simple motor on/off, use one keyboard key to set the correct pin on, and another to turn it off.
 
 ```blocks3
 when [up arrow v] key pressed
@@ -142,7 +142,7 @@ wait (2) seconds
 end
 ```
 
-Click the green flag to check that your project works as exprecrted and play around with the wait time until they work as you'd like.
+Click the green flag to check that your project works as exprected and play around with the wait time until they work as you'd like.
 
 **Note:** If you stop the program while the motor is running, it will carry on running because the GPIO pin has been left high (on).
 
