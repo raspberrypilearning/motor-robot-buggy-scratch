@@ -10,7 +10,7 @@ For the CamJam EduKit motor in these instructions, the GPIO pin numbers are 9 an
 
 ### Stop all motors!
 
-You're going to write some simple code to test that everything is working and see which pin makes each wheel go in each direction. But first of all, you're going to write a software _kill code_ script to stop all the motors.
+You're going to write some simple code to test that everything is working and see which pin makes each wheel go in a direction. But first of all, you're going to write a software _kill code_ script to stop all the motors.
 
 --- task ---
 
