@@ -1,4 +1,4 @@
-## Testing the motors with Scratch
+## Test the motors with Scratch
 
 Any motor controller for two motors will use four GPIO pins to send signals to the motors.
 + Motor A clockwise
