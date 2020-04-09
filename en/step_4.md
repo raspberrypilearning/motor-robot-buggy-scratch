@@ -16,7 +16,7 @@ Since the gear motor turns, you could make something that spins. It could be Fer
 
 Decide what you want to make, collect some materials, and make it!
 
-If you're unsure what to make, how about making a windmill, just like this example.
+If you're unsure what to make, you could start with a windmill, just like in this example.
 
 Think about where the motor will need to go for your project to work.
 
