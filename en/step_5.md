@@ -1,12 +1,12 @@
-## Challenge: Adapting your motor project
+## Challenge: Adapt your motor project
 
-This is a very open challenge with enormous room for freedom in what you do. 
+This is a very open challenge to give you the freedom to make it your own.  
 
-Take your project from the lest section, or another if you like, and turn it into something else, adapt it, improve it in some way you had not originally thought of!
+It's time to take your project from the last section (or use another if you like) and turn it into something else! You can adapt it and improve it in some way you had not originally considered.
 
-The changes could involve more making, more coding or both! There is no right or wrong. You are the judge of whether the change is an improvement or not.
+The changes could involve more making, more coding or both! There is no right or wrong approach here. You are the judge of whether the change is an improvement or not.
 
-If you feel a bit overwhelmed by open possibilities, how about turning your creation into a _crazy golf_ obstacle where you have to try and get a ball past your moving obstacle?
+If you feel overwhelmed by open possibilities, how about turning your creation into a _crazy golf_ obstacle where you have to try and get a ball past your moving obstacle?
 
 The crazy golf idea doesn't need to end there. You could have a moving obstacle to try and get a remote control buggy past, or something else, like a Sphero. Use whatever you can get your hands on!
 
@@ -25,18 +25,18 @@ The crazy golf idea doesn't need to end there. You could have a moving obstacle 
 ### Crazy golf
 
 What you will need to do for a crazy golf project:
-+ have a target or destination for the ball (or robot) to get to
-+ code your obstacle to move in a way that makes getting past possible, but not too easy
++ Have a target or destination for the ball (or robot) to get to
++ Code your obstacle to move in a way that makes getting past possible, but not too easy
 
-For the example windmill, a hole has been cut in the front of the mill and the **target** is getting a ball **inside** the windmill itself!
+For the example windmill, a hole has been cut in the front of the mill and the **target** is to get a ball **inside** the windmill itself!
 
 You'll probably come across unexpected issues as you go. The Raspberry Pi and battery box used to sit at the bottom of the windmill, so they needed to find a new home.
 
 --- task ---
 
-Adapt your project model so that there is space for the Raspberry Pi, battery box, etc. to be stored, and so that there is a target for the ball. 
+Adapt your project model so that there is space for the Raspberry Pi, battery box, etc., to be stored, and so that there is a target for the ball. 
 
-**Note:** the target does not have to be a part of your original project model. The target could be somewhere _beyond_ your obstacle where the ball needs to pass your obstacle safely.
+**Note:** The target does not have to be a part of your original project model. The target could be somewhere _beyond_ your obstacle where the ball needs to pass your obstacle safely.
 
 In the example project, a shelf was needed to the electronics.
 
@@ -52,7 +52,7 @@ A hole in the front of the tower created the target destination inside the windm
 
 Next, you will need to adapt your code for this new purpose.
 
-In this example, we'll start with the code from the last section for the windmill.
+In this example, let's start with the code from the last section for the windmill.
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ wait (15) seconds
 end
 ```
 
-How will you change this code to make a fun crazy golf obstacle?
+How can you change this code to make a fun crazy golf obstacle?
 
 --- /task ---
 
@@ -74,22 +74,22 @@ How will you change this code to make a fun crazy golf obstacle?
 
 To make the challenge hard, which also makes it fun, you will need to:
 
-+ turn the windmill off only for a very short time
++ turn the windmill off (only for a very short time)
 + make it hard to predict when the windmill will start and stop
 
 --- /hint ---
 
 --- hint ---
 
-Making it hard to predict when the windmill will start and stop is easy. Just add `random number`{:class="block3operators"} blocks to your `wait`{:class="block3control"} times.
+It is easy to make it hard to predict when the windmill will start and stop. Just add `random number`{:class="block3operators"} blocks to your `wait`{:class="block3control"} times.
 
-You will also need to make the numbers **much** lower. You will need to experiment to see what works best in your project but the windmill example used `wait`{:class="block3control"} times between `0.1`{:class="block3control"} and `1.5 seconds`{:class="block3control"} only!
+You also need to make the numbers **much** lower. Experiment with what works best in your project. The windmill example used `wait`{:class="block3control"} times between `0.1`{:class="block3control"} and `1.5 seconds`{:class="block3control"} only!
 
 --- /hint ---
 
 --- hint ---
 
-The code below worked for the windmill example crazy golf obstacle but you'll have to play with the numbers to find what works best for you and your project.
+The code below worked for the windmill crazy golf obstacle, but play with the numbers to find what works best for you and your project.
 
 ```blocks3
 when flag clicked
