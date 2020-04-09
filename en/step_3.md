@@ -59,7 +59,7 @@ set gpio (7 v) to output [low v] ::extension
 
 --- task ---
 
-Finally, add a block from the control block palette to `stop all`{:class="block3control"} to ensure the motors don't start again until you want them to.
+Finally, add a block from the control block palette to `stop all`{:class="block3control"} to ensure the motors won't start again until you want them to.
 
 ```blocks3
 when [q v] key pressed
@@ -72,7 +72,7 @@ set gpio (10 v) to output [low v] ::extension
 
 --- /task ---
 
-That's the completed _kill switch_ that will turn off all the motors. Press the *q* key if ever you need to stop everything in a hurry. This is really useful if you have a motor wrapping itself round a wire!
+That's the completed _kill switch_ that will turn off all the motors. Press the **q** key if ever you want to stop everything in a hurry. This is really useful if you have a motor wrapping itself round a wire!
 
 ### Test codes
 
@@ -118,7 +118,7 @@ Now the motor will turn on, showing which motor and which direction, then quickl
 
 --- task ---
 
-Now repeat that code for each of your GPIO pins 8, 9, and 10.
+Repeat that code for each of your GPIO pins 8, 9, and 10.
 
 ```blocks3
 when [8 v] key pressed
@@ -141,7 +141,7 @@ wait (0.1) seconds
 set gpio (10 v) to output [low v] ::extension
 ```
 
-**NOTE:** You could get away with making these blocks for pins 7 and 9 only, since pin 8 will move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
+**NOTE:** You could just make these blocks for pins 7 and 9 only, since pin 8 will move the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
 
 Press the **8**, **9**, and **10** keys in turn to see what each does.
 
