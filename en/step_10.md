@@ -1,14 +1,14 @@
 ## Alternative visual remote
 
-In **Scratch visual remote** you made a Scratch based remote which turned the motors **on** and **off** momentarily. An alternative to this is a remote that turns the motors on until given another instruction. In other words, the motors will not turn off automatically.
+In the **Scratch visual remote** section, you made a Scratch-based remote which turned the motors **on** and **off** momentarily. An alternative to this is a remote that turns the motors on until given another instruction. In other words, the motors do not turn off automatically.
 
-You could do this by simply removing the `wait`{:class="block3control"} and `set gpio pins low`{:class="block3extensions"} from each of the direction sprites but just to shake things up a little, you're going to try something a little different here.
+To do this, you could remove the `wait`{:class="block3control"} and `set gpio pins low`{:class="block3extensions"} from each of the direction sprites. But just to shake things up a little, you're going to try something a little different here.
 
 In this section, you'll set your direction sprites to activate whenever the mouse pointer is over them and create a new **stop** sprite to turn the motors off.
 
 --- task ---
 
-Starting where you left off from the last **visual remote**, move the cat sprite out of the way and down to a corner to make way for a central **stop** sprite.
+Start where you left off from the last **visual remote** and move the cat sprite out of the way and down to a corner to make way for a central **stop** sprite.
 
 You can set the size in the sprite informtion box at the top of the sprite window.
 
@@ -33,7 +33,7 @@ NOTE: Your cat sprite should still have the _kill code_ that stops all motors.
 
 Next, let's look at the **forward** sprite.
 
-The previous code turned the forward GPIO pins on, waited and then turned them off again using the sprite being clicked as the _event_.
+The previous code turned the forward GPIO pins on, waited, and then turned them off again using the sprite being clicked as the _event_.
 
 ![Forwards sprite](images/spriteIcon_forwards.png)
 
@@ -66,7 +66,7 @@ set size to (200) %
 
 --- task ---
 
-Since you want the sprite to _always_ keep checking if the mouse pointer is touching the sprite, you'll need a `forever`{:class="block3control"} loop and a conditional `if... then...`{:class="block3control"} block.
+Since you want the sprite to _always_ keep checking if the mouse pointer is touching the sprite, you need a `forever`{:class="block3control"} loop and a conditional `if... then...`{:class="block3control"} block.
 
 ![Forwards sprite](images/spriteIcon_forwards.png)
 
@@ -82,7 +82,7 @@ set size to (200) %
 
 --- task ---
 
-Next, you'll add the _condition_ to be checked - Is the sprite touching the mouse pointer?
+Next, add the _condition_ to be checked. Is the sprite touching the mouse pointer?
 
 ![Forwards sprite](images/spriteIcon_forwards.png)
 
@@ -114,9 +114,9 @@ forever
 
 --- /task ---
 
-Now, whenever the mouse pointer touches the sprite, the forward motors will turn on but there is no code to turn them off again. In other words, until they receive another instruction from another sprite, the robot buggy will continue moving forwards.
+Now, whenever the mouse pointer touches the sprite, the forward motors turn on, but there is no code to turn them off again. In other words, until they receive another instruction from another sprite, the robot buggy continues to move forwards.
 
-Since this rule will also apply to the other direction sprites, you will need to add code blocks to make sure any GPIO pins other than your **forwards** pins are turned off.
+Since this rule also applies to the other direction sprites, you need to add code blocks to make sure any GPIO pins other than your **forwards** pins are turned off.
 
 --- task ---
 
@@ -136,13 +136,13 @@ forever
  end
 ```
 
-Test the code by moving the mouse pointer over the forward sprite and checking that the motors turn forwards. Remember that there is no code to turn the motors off, but you can press **q** to activate the _kill code_.
+To test the code, move the mouse pointer over the forward sprite and check that the motors turn forwards. Remember that there is no code to turn the motors off, but you can press **q** to activate the _kill code_.
 
 --- /task ---
 
 --- task ---
 
-Repeat this code for the backwards, right and left sprites, using the correct GPIO pins for each direction.
+Repeat this code for the backwards, right, and left sprites, and use the correct GPIO pins for each direction.
 
 ![Backwards sprite](images/spriteIcon_backwards.png)
 
@@ -188,13 +188,13 @@ forever
 
 --- /task ---
 
-The only thing left to do is add a central **stop** sprite. A sprite in the centre of the the four _direction_ sprites that will turn all GPIO pins low when touched by the mouse pointer.
+The only thing left to do is add a central **stop** sprite. A sprite in the centre of the the four _direction_ sprites that turns all GPIO pins low when touched by the mouse pointer.
 
 --- task ---
 
 Duplicate one of your _direction_ sprites as adjusting the code is much easier than starting from the beginning.
 
-The **stop** sprite will have much the same code but **all** GPIO pins will be turned low.
+The **stop** sprite has much the same code but **all** GPIO pins are turned low.
 
 ![Stop sprite](images/spriteIcon_stop.png)
 
@@ -226,7 +226,7 @@ Now all the coding is done, test the program out. Press the `SPACE` key to start
 
 Think about how you would improve this remote control.
 
-I found that it was hard to look at the remote and where the mouse pointer was **and** see what the robot was doing at the same time so it would be useful to make the different direction sprites as large as they could be on the screen.
+You may find it hard to look at the remote and where the mouse pointer was **and** see what the robot was doing at the same time. If this is the case, it would be useful to make the different direction sprites as large as possible on the screen.
 
 --- no-print ---
 ![Robot buggy](images/altVisualRemote_gameplay2.gif)
