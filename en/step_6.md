@@ -123,7 +123,7 @@ Press `q`{:class="block3events"} when you want the motor to stop.
 
 --- /task ---
 
-The pen should spin for a moment and then stop for an even shorter time. The short stop makes it hard to reach the target in time, but at the moment you will always know how long it stops for and which way it will spin, so there are some obvious ways to improve the game.
+The pen should spin for a moment and then stop for an even shorter time. The short stop makes it hard to reach the target in time, but at the moment you always know how long it stops for and which way it spins, so there are some obvious ways to improve the game.
 
 + randomise the amount of time it spins
 + randomise the amount of time it stops
