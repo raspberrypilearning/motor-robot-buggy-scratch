@@ -1,10 +1,10 @@
 ## Reaction game
 
-There are so many things that you can make using a motor before we move on to robot buggies. How about making some moving art, a motorised scene from history, a winch, or maybe something that nobody ever thought of before.
+There are so many things that you can make using a motor. Why not make a piece of moving art, a motorised scene from history, a winch, or maybe something that nobody ever thought of before?
 
-Try making this simple reaction game and then maybe have a go at making something of your own.
+Try to make this simple reaction game and then have a go at making something of your own.
 
-The idea is to have a target, maybe an object to take, that the player needs to get to, and the motor drives a pen or stick that the player needs to avoid.
+The idea is to have a target, maybe an object to take, that the player needs to get to. The motor drives a pen or stick that the player needs to avoid.
 
 --- no-print ---
 
@@ -20,9 +20,9 @@ The idea is to have a target, maybe an object to take, that the player needs to 
 
 --- task ---
 
-Stick a pen to one of your wheels. Using masking tape or Blu Tack work fine for this.
+Stick a pen to one of your wheels. Masking tape or Blu Tack works fine for this.
 
-If you prefer, you could use a stick or straw to avoid getting your fingers covered in pen ink!
+If you prefer, you could use a stick or straw, this helps you to avoid fingers covered in pen ink!
 
 ![Wheel and pen](images/reaction_wheelPen.png)
 
@@ -30,9 +30,9 @@ If you prefer, you could use a stick or straw to avoid getting your fingers cove
 
 --- task ---
 
-Attach the wheel to your motor and fix it down to your playing surface. You could use a table, a board or even a piece of stiff cardboard so you can move it around.
+Attach the wheel to your motor and fix it to your playing surface. You could use a table, a board, or even a piece of stiff cardboard so you can move it around.
 
-In the example, the motor is stuck on blobs of Blu Tack and then masking tape stops it from falling over all the time.
+In the example, the motor is stuck on blobs of Blu Tack and then masking tape is used to keep it in upright.
 
 Angle the motor as you like to protect your chosen target spot.
 
@@ -42,11 +42,11 @@ Angle the motor as you like to protect your chosen target spot.
 
 --- task ---
 
-Next comes the target - something you need to touch, retrieve, place or even make. You might even have a small jigsaw you need to make or something you need to draw before the pen gets you. It can be whatever you like.
+Next comes the target: something you need to touch, retrieve, place, or even make. Your game might have a small jigsaw the player needs to make or something to draw before the pen gets you. It can be whatever you like.
 
-In this example we'll have a small target and a coin to retrieve and then place back exactly on the target spot before being **marked** by the pen.
+In this example, there's a small target and a coin to retrieve and then place back exactly on the target spot before being **marked** by the pen.
 
-Place your target down in the place that is most protected and hardest to get to.
+Place your target down in the place that is most protected and the hardest to get to.
 
 ![Motor, wheel, pen and target](images/reaction_motorTarget.png)
 
@@ -60,7 +60,7 @@ That's all the making done, unless you need to adjust something once you see how
 
 Now let's code your pen trap.
 
-First of all, you're going to program a _kill code_ to turn the motor off. You need to do this because if you simply stop the program when the motor is running, the motor keeps on spinning because that was the last instruction it had, or more precisely, buecause that GPIO pin remains _high_.
+First of all, you're going to program a _kill code_ to turn the motor off. You need to do this because if you simply stop the program when the motor is running, the motor keeps on spinning because that was the last instruction it had, or more precisely, because that GPIO pin remains _high_.
 
 --- task ---
 
@@ -77,7 +77,7 @@ set gpio (10 v) to output [low v] ::extension
 stop [all v]
 ```
 
-Since this code only turns the GPIO pins low (off), you will need to write some code turning the pins high to test it out.
+Since this code only turns the GPIO pins low (off), you need to write some code to turn the pins high to test it out.
 
 --- /task ---
 
@@ -85,7 +85,7 @@ Now you can write the code to make the motor turn on and off.
 
 --- task ---
 
-Select an `event`{:class="block3events"} key to start the reaction game. Previously we have used the `green flag`{:class="block3events"} but this example will use the `SPACE`{:class="block3events"} key.
+Select an `event`{:class="block3events"} key to start the reaction game. Previously you used the `green flag`{:class="block3events"}, but this example uses the `SPACE`{:class="block3events"} key.
 
 Pull out a `forever`{:class="block3control"} loop from the control palette to make the code keep repeating as long as the program is running.
 
@@ -97,7 +97,7 @@ end
 
 --- /task ---
 
-Next, you will turn the motor **on** using GPIO pin 9 and then turn it **off** again using a very short wait to get the timing of the motor's motion.
+Next, turn the motor **on** using GPIO pin 9 and then turn it **off** again using a very short wait to get the timing of the motor's motion.
 
 --- task ---
 
@@ -105,7 +105,7 @@ Take two `set gpio`{:class="block3extensions"} blocks. One for **on** and one fo
 
 Place these inside the `forever`{:class="block3control"} loop, each with a `wait`{:class="block3control"} block after it.
 
-Set the two `waits`{:class="block3control"} for a very short time, e.g. 0.8 seconds after turning the pin high and 0.5 seconds after turning it low again.
+Set the two `waits`{:class="block3control"} for a very short time, e.g. 0.8 seconds after you have turned the pin high and 0.5 seconds after you have turned it low again.
 
 ```blocks3
 when [space v] key pressed
@@ -123,11 +123,11 @@ Press `q`{:class="block3events"} when you want the motor to stop.
 
 --- /task ---
 
-The pen should spin to a moment and then stop for an even shorter time. The short stop makes it hard to reach for the target in time but at the moment you will always know how long it stops for and which way it will spin, so there are some obvious ways to improve the game.
+The pen should spin for a moment and then stop for an even shorter time. The short stop makes it hard to reach the target in time, but at the moment you will always know how long it stops for and which way it will spin, so there are some obvious ways to improve the game.
 
-+ randomise the amount of time it spins for
-+ randomise the amount of time it stops for
-+ randomise the direction the pen spins in
++ randomise the amount of time it spins
++ randomise the amount of time it stops
++ randomise the direction the pen spins
 
 Let's randomise the timing first.
 
@@ -149,11 +149,11 @@ Press `SPACE`{:class="block3events"} again to see the changes.
 
 --- /task ---
 
-The new random timing should make the game much harder and more exciting but randomising the pen direction will make it harder still.
+The new random timing should make the game much harder and more exciting, but if you randomise the direction of the pen, the game becomes even harder!
 
-To do this, you will create a `variable`{:class="block3variables"} called `direction`{:class="block3variables"} which will be set to 9 or 10 at the start of each repeat of the `forever`{:class="block3control"} loop.
+To do this, create a `variable`{:class="block3variables"} called `direction`{:class="block3variables"}, set to 9 or 10 at the start of each repeat of the `forever`{:class="block3control"} loop.
 
-Then, instead of `setting gpio`{:class="block3extensions"} `9`, you will `set gpio`{:class="block3extensions"} to the value of the `direction`{:class="block3variables"} variable, i.e. either 9 or 10.
+Then, instead of `setting gpio`{:class="block3extensions"} `9`, `set gpio`{:class="block3extensions"} to the value of the `direction`{:class="block3variables"} variable, i.e. either 9 or 10.
 
 Since the variable could be 9 0r 10 for each repeat, the direction of the motor could be forwards or backwards for each repeat.
 
@@ -180,7 +180,7 @@ end
 
 --- task ---
 
-To set `direction`{:class="block3variables"} to 9 or 10, add a `pick random`{:class="block3operators"} block and set the range as from 9 to 10.
+To set `direction`{:class="block3variables"} to 9 or 10, add a `pick random`{:class="block3operators"} block and set the range from 9 to 10.
 
 Add a round `direction`{:class="block3variables"} variable block in place of `9` in each of the `set gpio`{:class="block3extensions"} blocks.
 
