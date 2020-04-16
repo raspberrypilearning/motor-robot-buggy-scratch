@@ -2,7 +2,7 @@
 
 There are so many things that you can use a motor to make. Why not make a piece of moving art, a motorised scene from history, a winch, or maybe something that nobody ever thought of before?
 
-Try to make this simple reaction game and then have a go at making something of your own.
+Have a go at this simple reaction game and then try to make something of your own.
 
 The idea is to have a target, maybe an object to take, that the player needs to get to. The motor drives a pen or stick that the player needs to avoid.
 
