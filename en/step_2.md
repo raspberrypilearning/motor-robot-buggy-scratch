@@ -70,4 +70,4 @@ If you have not already done so, put four AA batteries in the battery box.
 
 --- /task ---
 
-You've connected everything together. The next step is to start coding in Scratch 3 to get things moving.
+You've connected everything together. The next step is to start coding in Scratch 3 to get things on the move.
