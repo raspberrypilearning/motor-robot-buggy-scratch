@@ -1,6 +1,6 @@
 ## Scratch keyboard remote
 
-In this section you'll create a keyboard remote control to help you keep and eye on the screen and your robot buggy. 
+In this section you'll create a keyboard remote control to help you keep an eye on the screen and your robot buggy. 
 
 --- task ---
 
