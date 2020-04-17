@@ -69,7 +69,7 @@ set gpio (8 v) to output [high v] ::extension
 set gpio (9 v) to output [high v] ::extension
 ```
 
-Note: It is not really necessary to make these `custom blocks`{:class="block3myblocks"} to make the code work, but it makes your code very easy to read and is a useful step before you move to the next section's **programmed maze journeys**.
+Note: It is not really necessary to make these `custom blocks`{:class="block3myblocks"} for your code to work, but it makes your code very easy to read and is a useful step before you move to the next section's **programmed maze journeys**.
 
 --- /task ---
 
