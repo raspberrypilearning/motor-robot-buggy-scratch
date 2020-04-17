@@ -16,7 +16,7 @@ You're going to write some simple code to test that everything works and see whi
 
 Open Scratch 3 and load the **Raspberry Pi GPIO** extension.
 
-To do this, click on the add an extension button and choose the `Raspberry Pi GPIO` extension.
+To do this, click on the `Add Extension` button and choose the `Raspberry Pi GPIO` extension.
 
 ![Add the Raspberry Pi GPIO extension](images/testing_GPIOextension.png)
 
