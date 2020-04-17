@@ -4,7 +4,7 @@ In this section, you'll adapt your custom `My Blocks`{:class="block3myblocks"} a
 
 --- task ---
 
-Start with the code you had for **Scratch keyboard remote**. Keep your _kill code_, and `custom movement blocks`{:class="block3myblocks"} for `forwards`{:class="block3myblocks"}, `backwards`{:class="block3myblocks"}, `right`{:class="block3myblocks"}, and `left`{:class="block3myblocks"}.
+Start with the code you used for **Scratch keyboard remote**. Keep your _kill code_, and `custom movement blocks`{:class="block3myblocks"} for `forwards`{:class="block3myblocks"}, `backwards`{:class="block3myblocks"}, `right`{:class="block3myblocks"}, and `left`{:class="block3myblocks"}.
 
 You do not need any of the code in you `forever`{:class="block3control"} loop or the `stop`{:class="block3myblocks"} block, so throw those away.
 
