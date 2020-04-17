@@ -1,18 +1,18 @@
 ## Programmed maze journeys
 
-In this section you will adapt your custom `My Blocks`{:class="block3myblocks"} and then use them to pre-program your robot buggy to navigate through a maze or some other obstacle course that you make.
+In this section, you'll adapt your custom `My Blocks`{:class="block3myblocks"} and then use them to pre-program your robot buggy to navigate through a maze or obstacle course.
 
 --- task ---
 
-Starting with the code you had for **Scratch keyboard remote**, keep your _kill code_, and `custom movement blocks`{:class="block3myblocks"} for `forwards`{:class="block3myblocks"}, `backwards`{:class="block3myblocks"}, `right`{:class="block3myblocks"} and `left`{:class="block3myblocks"}.
+Start with the code you had for **Scratch keyboard remote**. Keep your _kill code_, and `custom movement blocks`{:class="block3myblocks"} for `forwards`{:class="block3myblocks"}, `backwards`{:class="block3myblocks"}, `right`{:class="block3myblocks"}, and `left`{:class="block3myblocks"}.
 
-You will not need and of the code in you `forever`{:class="block3control"} loop or the `stop`{:class="block3myblocks"} block, so throw those away.
+You do not need any of the code in you `forever`{:class="block3control"} loop or the `stop`{:class="block3myblocks"} block, so throw those away.
 
 --- /task ---
 
-Now, you're going to add to your `custom movement blocks`{:class="block3myblocks"} so that each `sets gpio pins high`{:class="block3extensions"}, `waits`{:class="block3control"} and then `sets gpio pins low`{:class="block3extensions"} again.
+Now, you're going to add to your `custom movement blocks`{:class="block3myblocks"} so that each `sets gpio pins high`{:class="block3extensions"}, `waits`{:class="block3control"}, and then `sets gpio pins low`{:class="block3extensions"} again.
 
-The clever coding here is building the `wait time`{:class="block3control"} into the `custom blocks`{:class="block3myblocks"}.
+The clever coding here is to build the `wait time`{:class="block3control"} into the `custom blocks`{:class="block3myblocks"}.
 
 Let's start with the `define forwards`{:class="block3myblocks"} block.
 
@@ -39,11 +39,11 @@ Now for the clever part.
 
 Right-click on the `define forwards`{:class="block3myblocks"} block and choose `edit`.
 
-In the dialogue box that opens, click on the `Add an input: number or text` button.
+In the dialogue box, click on the `Add an input: number or text` button.
 
-A new input entry will appear in the `forwards`{:class="block3myblocks"} block above. Give this input entry the name **time** and click `OK`.
+Next, a new input entry appears in the `forwards`{:class="block3myblocks"} block above. Give this input entry the name **time** and click `OK`.
 
-From your `define forwards`{:class="block3myblocks"} block, which now reads `define forwards (time)`{:class="block3myblocks"} drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
+From your `define forwards`{:class="block3myblocks"} block, which now reads `define forwards (time)`{:class="block3myblocks"}, drag the round `time`{:class="block3myblocks"} bubble into the `wait`{:class="block3control"} block's input bubble.
 
 
 ```blocks3
@@ -72,7 +72,7 @@ forwards (0.5) :: custom
 
 --- task ---
 
-Repeat the last step, adding a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
+Repeat the last step, add a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
 
 ```blocks3
 define backwards (time :: custom) :: custom
@@ -99,21 +99,21 @@ set gpio (9 v) to output [low v] ::extension
 
 --- /task ---
 
-You have now defined all of your `custom`{:class="block3myblocks"} blocks and it is time to make a maze or obstacle course to challenge yourself or someone else with.
+You have now defined all of your `custom`{:class="block3myblocks"} blocks and it is time to make a maze or obstacle course to challenge yourself or someone else.
 
 --- task ---
 
 Create your own maze or obstacle course.
 
-The rules are up to you! Think about haveing enough space for the robot to get through the maze and decide waht happens, for example, if the robot touches a boundary. Perhaps your course will have objects that the robot must knock over, or avoid, or even a mix of the two!
+The rules are up to you! Make sure that you have enough space for the robot to get through the maze and decide what happens, for example, if the robot touches a boundary. Perhaps your course has objects that the robot must knock over, or avoid, or even a mix of the two!
 
 ![Robot maze course](images/mazeJourneys_maze.png)
 
 --- /task ---
 
-Once you have made your course, it is time to code the journey using your `custom`{:class="block3myblocks"} blocks.
+Once you have made your course, it is time to use your `custom`{:class="block3myblocks"} blocks to code the robot's journey. 
 
-It will take trial and error to get the right code. Each time you go wrong, you will need to think about whether you need to increase or reduce the time for each move or turn.
+It takes trial and error to get the right code. Each time you go wrong, think about whether you need to increase or reduce the time for each move or turn.
 
 Program one step at a time, check it, and only go onto the next block of code once you have everything right up to that point.
 
@@ -121,7 +121,7 @@ Program one step at a time, check it, and only go onto the next block of code on
 
 Start with the `space`{:class="block3events"} key event block and add a `forwards`{:class="block3myblocks"} block from the `My Blocks`{:class="block3myblocks"} block palette.
 
-Estimate how long you will need to go forwards depending on the obstacle course or maze that you have created. Enter this in the blank field of the `forwards`{:class="block3myblocks"} block.
+Estimate how long you need to go forwards (this depends on the obstacle course or maze that you have created). Enter this in the blank field of the `forwards`{:class="block3myblocks"} block.
 
 ```blocks3
 when [space v] key pressed
@@ -139,7 +139,7 @@ Did it go where you wanted? Do you need to increase the time, reduce the time or
 ![Maze trials](images/mazeJourneys_mazeTrial1.png)
 --- /print-only ---
 
-In the example, the robot buggy went to far so the time needed reducing.
+In the example, the robot buggy went too far, so the time needs to be reduced.
 
 ```blocks3
 when [space v] key pressed
@@ -154,7 +154,7 @@ forwards (0.5) :: custom
 ![Maze trials](images/mazeJourneys_mazeTrial2.png)
 --- /print-only ---
 
-NOTE: You will need to make sure the robot goes back to the exact same place and facing the exact same way. Otherwise you will get different results each time and getting it right will become almost possible. 
+NOTE: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it will become almost impossible to get it right. 
 
 Use bits of tape or other markers to mark where your robot needs to start each time.
 
@@ -196,7 +196,7 @@ You might well find that you made your maze far too hard for a first maze. A cha
 
 --- task ---
 
-Keep trying it out and adding the `blocks`{:class="block3myblocks"} you need until you finish your challenge!
+Keep trying it out and add the `blocks`{:class="block3myblocks"} you need until you finish your challenge!
 
 ```blocks3
 when [space v] key pressed
