@@ -42,7 +42,7 @@ Next, connect the negative (black) wire from the battery box to the negative ter
 
 --- task ---
 
-Now connect the first motor by connecting the two motor wires to the two terminals marked **Motor A**. It does not matter which way round the wires go at this stage.
+To connect the first motor, connect the two motor wires to the two terminals marked **Motor A**. It does not matter which way round the wires go at this stage.
 
 ![Connect motor 1](images/setup_motor1.png)
 
