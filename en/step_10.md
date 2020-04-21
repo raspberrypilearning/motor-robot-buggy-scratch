@@ -136,7 +136,7 @@ forever
  end
 ```
 
-To test the code, move the mouse pointer over the forward sprite and check that the motors turn forwards. Remember that there is no code to turn the motors off, but you can press **q** to activate the _kill code_.
+To test the code, move the mouse pointer over the forward sprite and check that the motors turn forwards. Remember that there is no code to turn the motors off, but you can press the **q** key to activate the _kill code_.
 
 --- /task ---
 
