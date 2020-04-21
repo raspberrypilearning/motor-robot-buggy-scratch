@@ -16,7 +16,7 @@ You can set the size in the sprite informtion box at the top of the sprite windo
 
 It is good practice, however, and a good habit to get used to, to use code to set the size and other details.
 
-For remote controls it is sometimes useful to stick to keyboard commands, so instead of using the green flag as an event, try using something else. The `SPACE` key is ideal being so easy to find.
+For remote controls it is sometimes useful to stick to keyboard commands, so instead of using the green flag as an event, try using something else. The **space** key is ideal being so easy to find.
 
 Add a block from the looks block palette to `set the size to 50%`{:class="block3looks"}
 
@@ -212,7 +212,7 @@ forever
 
 --- /task ---
 
-Now all the coding is done, test the program out. Press the `SPACE` key to start and hover over the sprites to make your buggy move.
+Now all the coding is done, test the program out. Press the **space** key to start and hover over the sprites to make your buggy move.
 
 --- no-print ---
 ![Robot buggy](images/altVisualRemote_gameplay.gif)
