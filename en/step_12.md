@@ -154,7 +154,7 @@ forwards (0.5) :: custom
 ![Maze trials](images/mazeJourneys_mazeTrial2.png)
 --- /print-only ---
 
-**NOTE**: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it becomes almost impossible to get it right. 
+**Note**: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it becomes almost impossible to get it right. 
 
 Use bits of tape or other markers to mark where your robot needs to start each time.
 
