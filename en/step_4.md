@@ -24,7 +24,7 @@ Think about where the motor will need to go for your project to work.
 
 --- /task ---
 
-The example windmill uses the wheel as a base for the windmill _sails_. If your project also uses wheels, make sure that the motor is fixed to your project in a way that doesn't make the wheel rub against anything.
+The example windmill uses a wheel as a base for the windmill _sails_. If your project also uses wheels, make sure that the motor is fixed to your project in a way that doesn't make the wheel rub against anything.
 
 **Note:** The easiest way to attach the motor for a windmill is to stick it straight to the outside of the windmill building.
 
