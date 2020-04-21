@@ -64,7 +64,7 @@ First of all, you're going to program a _kill code_ to turn the motor off. You n
 
 --- task ---
 
-Select an `event`{:class="block3events"} key for your _kill code_. This example uses the *q* key for *q*uit.
+Select an `event`{:class="block3events"} key for your _kill code_. This example uses the **q** key for **q**uit.
 
 Set both GPIO pins, in this case 9 and 10 for motor 2, to `output low`{:class="block3extensions"}.
 
