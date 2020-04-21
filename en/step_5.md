@@ -50,7 +50,7 @@ A hole in the front of the tower created the target destination inside the windm
 
 --- task ---
 
-Next, you will need to adapt your code for this new purpose.
+Next, you need to adapt your code for this new purpose.
 
 In this example, let's start with the code from the last section for the windmill.
 
@@ -72,7 +72,7 @@ How can you change this code to make a fun crazy golf obstacle?
 
 --- hint ---
 
-To make the challenge hard, which also makes it fun, you will need to:
+To make the challenge hard, which also makes it fun, you need to:
 
 + turn the windmill off (only for a very short time)
 + make it hard to predict when the windmill will start and stop
