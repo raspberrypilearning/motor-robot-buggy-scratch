@@ -27,7 +27,7 @@ when [space v] key pressed
 set size to (50) %
 ```
 
-**NOTE**: Your cat sprite should still have the _kill code_ that stops all motors.
+**Note**: Your cat sprite should still have the _kill code_ that stops all motors.
 
 --- /task ---
 
