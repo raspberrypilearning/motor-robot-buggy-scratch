@@ -127,7 +127,7 @@ Estimate how long you need to go forwards (this depends on the obstacle course o
 when [space v] key pressed
 forwards (1) :: custom
 ```
-Make sure your robot is at your chosen starting spot and press `space`.
+Make sure your robot is at your chosen starting spot and press the **space** key.
 
 Did it go where you wanted? Do you need to increase the time, reduce the time, or move onto the next step?
 
@@ -154,7 +154,7 @@ forwards (0.5) :: custom
 ![Maze trials](images/mazeJourneys_mazeTrial2.png)
 --- /print-only ---
 
-NOTE: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it becomes almost impossible to get it right. 
+**NOTE**: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it becomes almost impossible to get it right. 
 
 Use bits of tape or other markers to mark where your robot needs to start each time.
 
