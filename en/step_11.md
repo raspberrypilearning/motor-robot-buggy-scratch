@@ -105,7 +105,7 @@ end
 
 --- /task ---
 
-Your code can check if the **up**,**down**,**right**, or **left arrows** are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
+Your code can check if the **up**, **down**, **right**, or **left arrows** are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
 
 Nested blocks are ones that fit inside each other in organised layers. You'll see how they fit together in a moment.
 
