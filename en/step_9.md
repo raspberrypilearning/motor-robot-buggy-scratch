@@ -15,7 +15,7 @@ Similarly, if you want to turn **right**, you need the left motor to go forwards
 
 --- task ---
 
-Use the test codes from **testing the motors with Scratch** to check what pins 7, 8, 9, and 10 control on _your_ robot buggy. This project gives examples based on the example robot, so you may need to switch wires or adjust the code to suit your buggy.
+Use the test codes from **test the motors with Scratch** to check what pins 7, 8, 9, and 10 control on _your_ robot buggy. This project gives examples based on the example robot, so you may need to switch wires or adjust the code to suit your buggy.
 
 ```blocks3
 when [7 v] key pressed
