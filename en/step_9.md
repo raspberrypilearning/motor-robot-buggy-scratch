@@ -80,7 +80,7 @@ Try it out. Click the sprite and your buggy should move forwards for a moment.
 
 Try and change the wait time to give a different amount of movement.
 
-**NOTE**: You might find that the robot moves slightly to the side at the beginning and end of the move. This is just because of the GPIO pins turning on and off a split-second after each other. 
+**Note**: You might find that the robot moves slightly to the side at the beginning and end of the move. This is just because of the GPIO pins turning on and off a split-second after each other. 
 
 If your buggy veers clearly in one direction throughout the move, then your wheels are probably a little wonky.
 
