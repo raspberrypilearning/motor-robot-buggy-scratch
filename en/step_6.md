@@ -22,7 +22,7 @@ The idea is to have a target, maybe an object to take, that the player needs to 
 
 Stick a pen to one of your wheels. Masking tape or Blu Tack works fine for this.
 
-If you prefer, you could use a stick or straw, this helps you to avoid fingers covered in pen ink!
+If you prefer, you could use a stick or straw, which can help you avoid covering your fingers in pen ink!
 
 ![Wheel and pen](images/reaction_wheelPen.png)
 
