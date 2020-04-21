@@ -50,13 +50,13 @@ What you are going to do now is add a sprite for each direction: forwards, backw
 
 --- task ---
 
-Start by adding a sprite to go forwards.
+Add a sprite to go forwards.
 
 ![Adding a forwards sprite](images/visualRemote_forwardSprite.png)
 
-Rename the sprite, **forwards** to keep your program clear.
+Rename the sprite **forwards** to keep your program clear.
 
-The code is much the same for each direction so it is easier to finish one and then duplicate that sprite.
+The code is pretty much the same for each direction, so it is easier to finish one and then duplicate that sprite.
 
 --- /task ---
 
