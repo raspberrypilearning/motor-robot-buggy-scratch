@@ -93,7 +93,7 @@ The remaining keyboard code is `sensing`{:class="block3sensing"} `if`{:class="bl
 
 --- task ---
 
-Start with an event for the code. You could use the classic `green flag`{:class="block3events"} event if you like, but a keyboard event such as the `space`{:class="block3events"} key has advantages for remote controls when you are not always at a computer screen to see where the green flag is.
+Start with an event for the code. You could use the classic `green flag`{:class="block3events"} event if you like, but a keyboard event such as the **space** key has advantages for remote controls when you are not always at a computer screen to see where the green flag is.
 
 Since you want your code to keep on checking if a key is being pressed _forever_ (as long as the program is running), pick a `forever`{:class="block3control"} loop and place it under your event.
 
@@ -105,7 +105,7 @@ end
 
 --- /task ---
 
-Your code can check if the `up`, `down`, `right`, or `left` arrows are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
+Your code can check if the **up**,**down**,**right**, or **left arrows** are being pressed using _nested_ `if... then... else`{:class="block3control"} blocks.
 
 Nested blocks are ones that fit inside each other in organised layers. You'll see how they fit together in a moment.
 
@@ -113,7 +113,7 @@ Nested blocks are ones that fit inside each other in organised layers. You'll se
 
 Grab an `if... then... else`{:class="block3control"} block and a `key space pressed?`{:class="block3sensing"} and put them together inside your `forever` {:class="block3control"} loop.
 
-Change the key from `space`{:class="block3sensing"} to `up arrow`{:class="block3sensing"}.
+Change the key from **space** to **up arrow**.
 
 ```blocks3
 when [space v] key pressed
@@ -128,7 +128,7 @@ end
 
 --- task ---
 
-Duplicate the `if... then... else`{:class="block3control"} block and set the new keys to `down arrow`{:class="block3sensing"}, `right arrow`{:class="block3sensing"}, and `left arrow`{:class="block3sensing"}.
+Duplicate the `if... then... else`{:class="block3control"} block and set the new keys to **down arrow, right arrow,** and **left arrow**.
 
 ```blocks3
 if <key (down arrow v) pressed?> then
@@ -210,9 +210,9 @@ end
 
 ```
 
-Your code now checks if the `up arrow`{:class="block3sensing"} is being pressed. 
+Your code now checks if the **up arrow** is being pressed. 
 + `if`{:class="block3control"} it is `then`{:class="block3control"} the buggy moves `forwards`{:class="block3myblocks"}.
-+ `else`{:class="block3control"} it checks if the `down arrow`{:class="block3sensing"} is being pressed.
++ `else`{:class="block3control"} it checks if the **down arrow** is being pressed.
 And so on.
 
 --- /task ---
@@ -277,11 +277,11 @@ end
 
 --- /task ---
 
-Almost there! Your code now checks if each `arrow key`{:class="block3sensing"} is being pressed in turn. If the first `arrow key`{:class="block3sensing"} is pressed, then GPIO pins are set high and the motors turn on, else the code checks the next `arrow key`{:class="block3sensing"} in the sequence. If no `arrow keys`{:class="block3sensing"} are being pressed, then you need to tell all the motor GPIO pins to be set low.
+Almost there! Your code now checks if each **arrow** key is being pressed in turn. If the first **arrow** key is pressed, then GPIO pins are set high and the motors turn on, else the code checks the next **arrow** key in the sequence. If no **arrow** keys {:class="block3sensing"} are being pressed, then you need to tell all the motor GPIO pins to be set low.
 
 --- task ---
 
-Inside the final `else`{:class="block3control"} section, insert a `stop`{:class="block3myblocks"} block from `my blocks`{:class="block3myblocks"}.
+Inside the final `else`{:class="block3control"} section, insert a `stop`{:class="block3myblocks"} block from `My Blocks`{:class="block3myblocks"}.
 
 ```blocks3
 when [space v] key pressed
@@ -307,7 +307,7 @@ end
 
 ```
 
-You're done. Press the `space`{:class="block3control"} key to start your code and then use the arrow keys to control your robot buggy. 
+You're done. Press the **space** key to start your code and then use the **arrow** keys to control your robot buggy. 
 
 You may find that it takes a moment to respond to key controls but you'll soon get used to that.
 
