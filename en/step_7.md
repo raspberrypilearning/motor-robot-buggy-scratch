@@ -7,7 +7,7 @@ Let's start by looking at the robot's chassis — the basic body of your robot b
 
 --- task ---
 
-The first thing you need to do is think about the design of your robot buggy. Look at the materials that you have, and think about the materials you want and can easily get hold of. 
+The first thing you need to do is think about the design of your robot buggy. Look at the materials that you have, and think about the materials you can easily get hold of. 
 
 Your robot buggy needs to have:
 
