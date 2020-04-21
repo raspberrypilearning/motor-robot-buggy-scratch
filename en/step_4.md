@@ -30,7 +30,7 @@ The example windmill uses a wheel as a base for the windmill _sails_. If your pr
 
 ![Motor placement](images/motorsFor_windmillMotor.png)
 
-In the example, the back of the windmill is cut out to make it easier to access the inside.
+In the example, the back of the windmill has been cut out to make it easier to access the inside.
 
 ![Back of windmill](images/motorsFor_windmillBack.png)
 
@@ -98,7 +98,7 @@ Try pressing the **up**, **down**, **right**, and **left** keys to make your pro
 
 ### Project on a timer
 
-You might want your project to work automatically on a timer. For instance, the windmill could turn on for two seconds and then turn off for quarter of a minute.
+You might want your project to work automatically on a timer. For instance, the windmill could turn on for two seconds and then turn off for a quarter of a minute.
 
 --- task ---
 
