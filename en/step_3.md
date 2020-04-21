@@ -141,7 +141,7 @@ wait (0.1) seconds
 set gpio (10 v) to output [low v] ::extension
 ```
 
-**NOTE:** You could just make these blocks for pins 7 and 9 only, since pin 8 moves the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
+**Note:** You could just make these blocks for pins 7 and 9 only, since pin 8 moves the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
 
 Press the **8**, **9**, and **10** keys in turn to see what each does.
 
