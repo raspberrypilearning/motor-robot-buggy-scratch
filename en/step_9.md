@@ -80,7 +80,7 @@ Try it out. Click the sprite and your buggy should move forwards for a moment.
 
 Try and change the wait time to give a different amount of movement.
 
-NOTE: You might find that the robot moves slightly to the side at the beginning and end of the move. This is just because of the GPIO pins turning on and off a split-second after each other. 
+**NOTE**: You might find that the robot moves slightly to the side at the beginning and end of the move. This is just because of the GPIO pins turning on and off a split-second after each other. 
 
 If your buggy veers clearly in one direction throughout the move, then your wheels are probably a little wonky.
 
@@ -148,8 +148,8 @@ For the example robot buggy, to turn right for 0.5 seconds meant a rotation of r
 
 You're done! Get driving!
 
-With the example buggy, 0.5 seconds for forwards and backwards, and 0.1 seconds for right and left was ideal.Repeatedly clicking on the sprites created a pretty good continuous movement.  
+With the example buggy, 0.5 seconds for forwards and backwards, and 0.1 seconds for right and left was ideal. Repeatedly clicking on the sprites created a pretty good continuous movement.  
 
-Think about how you might improve the remote. Even small things like to make the buttons bigger can make a difference.
+Think about how you might improve the remote. Even things like bigger buttons can make a difference.
 
 ![Make improvements](images/visualRemote_largerSprites.png)
