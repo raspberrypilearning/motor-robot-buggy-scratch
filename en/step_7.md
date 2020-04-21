@@ -1,6 +1,6 @@
 ## How to make a robot buggy
 
-Robot buggies are a really popular project and once you have a robot that can drive around there are all sorts of ways to adapt it and grow you project, you could add lights or even sensors.
+Robot buggies are a really popular project and once you have a robot that can drive around there are all sorts of ways to adapt it and grow you project, you could add lights, or even sensors!
 
 Let's start by looking at the robot's chassis — the basic body of your robot buggy.
 
