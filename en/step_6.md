@@ -85,7 +85,7 @@ Now you can write the code to make the motor turn on and off.
 
 --- task ---
 
-Select an `event`{:class="block3events"} key to start the reaction game. Previously you used the `green flag`{:class="block3events"}, but this example uses the `SPACE`{:class="block3events"} key.
+Select an `event`{:class="block3events"} key to start the reaction game. Previously you used the `green flag`{:class="block3events"}, but this example uses the **space** key.
 
 Pull out a `forever`{:class="block3control"} loop from the control palette to make the code keep repeating as long as the program is running.
 
@@ -117,9 +117,9 @@ forever
 end
 ```
 
-Press `SPACE`{:class="block3events"}, or whatever event you chose, and see how it works.
+Press the **space** key, or whatever event you chose, and see how it works.
 
-Press `q`{:class="block3events"} when you want the motor to stop.
+Press the **q** key when you want the motor to stop.
 
 --- /task ---
 
@@ -145,7 +145,7 @@ forever
 end
 ```
 
-Press `SPACE`{:class="block3events"} again to see the changes.
+Press the **space** key again again to see the changes.
 
 --- /task ---
 
@@ -155,7 +155,7 @@ To do this, create a `variable`{:class="block3variables"} called `direction`{:cl
 
 Then, instead of `setting gpio`{:class="block3extensions"} `9`, `set gpio`{:class="block3extensions"} to the value of the `direction`{:class="block3variables"} variable, i.e. either 9 or 10.
 
-Since the variable could be 9 0r 10 for each repeat, the direction of the motor could be forwards or backwards for each repeat.
+Since the variable could be 9 or 10 for each repeat, the direction of the motor could be forwards or backwards for each repeat.
 
 Try it out.
 
@@ -195,7 +195,7 @@ forever
 end
 ```
 
-Press `SPACE`{:class="block3events"} to try out your new randomised direction pen code.
+Press the **space** key to try out your new randomised direction pen code.
 
 Play around with the timings to find the right values for you.
 
