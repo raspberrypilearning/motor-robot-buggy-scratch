@@ -24,7 +24,7 @@ The crazy golf idea doesn't need to end there. You could have a moving obstacle 
 
 ### Crazy golf
 
-What you will need to do for a crazy golf project:
+What you need to do for a crazy golf project:
 + Have a target or destination for the ball (or robot) to get to
 + Code your obstacle to move in a way that makes getting past possible, but not too easy
 
