@@ -18,7 +18,7 @@ Most _plug-on_ motor controller boards have a similar format with a **power-in**
 
 ![Motor controller on GPIO pins closeup](images/setup_mcOnGPIOcloseup.png)
 
-**Note:** It is important to get the battery pack polarity correct. However, when connecting the motors polarity is not essential, it simply affects which GPIO pin controls forwards or backwards.
+**Note:** It is important to get the battery pack polarity correct. However when connecting the motors, polarity is not essential, it simply affects which GPIO pin controls forwards or backwards.
 
 It is usually easier and safer to connect your battery box and motors before you connect the motor controller board to the Pi.
 
