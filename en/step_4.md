@@ -144,6 +144,6 @@ end
 
 Click the green flag to check that your project works as expected and play around with the wait time until they work as you'd like.
 
-**Note:** If you stop the program while the motor is running, it will continue to run because the GPIO pin has been left high (on).
+**Note:** If you stop the program while the motor is running, it will continue to run because the GPIO pin has been left on high (it is on).
 
 --- /task ---
