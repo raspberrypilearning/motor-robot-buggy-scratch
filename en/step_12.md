@@ -184,7 +184,7 @@ Try it out. If it wasn't right, work out how you need to adjust it and try again
 
 --- /task ---
 
-You might well find that you made your maze far too hard for a first maze. A challenge is good but if it gets frustrating, don't be afraid to alter your maze to make it easier to suceed.
+You might well find that you made your maze far too hard for a first maze. A challenge is good but if it gets frustrating, don't be afraid to alter your maze to make it easier to succeed.
 
 --- no-print ---
 ![Maze trials](images/mazeJourneys_mazeTrial4.gif)
