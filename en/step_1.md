@@ -1,5 +1,5 @@
 --- no-print ---
-This is a **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a ['Physical computing for Scratch 1.4' project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers, and button switches, and a ['Robot buggy' project](https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
+This is a **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [Physical computing for Scratch 1.4 project](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} where you can learn about programming LEDs, buzzers, and button switches, and a [Robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy){:target="_blank"}, both of which can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
