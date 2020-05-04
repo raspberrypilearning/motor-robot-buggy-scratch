@@ -6,25 +6,25 @@ It's time to take your project from the last section (or use another if you like
 
 The changes could involve more making, more coding, or both! There is no right or wrong approach here. You are the judge of whether the change is an improvement or not.
 
-If you feel overwhelmed by open possibilities, how about turning your creation into a _crazy golf_ obstacle where you have to try and get a ball past your moving obstacle?
+If you feel overwhelmed by open possibilities, how about turning your creation into a _minigolf_ obstacle where you have to try and get a ball past your moving obstacle?
 
-The crazy golf idea doesn't need to end there. You could have a moving obstacle to try and get a remote control buggy past, or something else, like a Sphero. Use whatever you can get your hands on!
+The crazy minigolf idea doesn't need to end there. You could have a moving obstacle to try and get a remote control buggy past, or something else, like a Sphero. Use whatever you can get your hands on!
 
 --- no-print ---
 
-![A crazy golf windmill](images/adaptation_windmill.gif)
+![A minigolf windmill](images/adaptation_windmill.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![A crazy golf windmill](images/adaptation_windmill.png)
+![A minigolf windmill](images/adaptation_windmill.png)
 
 --- /print-only ---
 
-### Crazy golf
+### Minigolf
 
-What you need to do for a crazy golf project:
+What you need to do for a minigolf project:
 + Have a target or destination for the ball (or robot) to get to
 + Code your obstacle to move in a way that makes getting past possible, but not too easy
 
@@ -64,7 +64,7 @@ wait (15) seconds
 end
 ```
 
-How can you change this code to make a fun crazy golf obstacle?
+How can you change this code to make a fun minigolf obstacle?
 
 --- /task ---
 
@@ -89,7 +89,7 @@ You also need to make the numbers **much** lower. Experiment with what works bes
 
 --- hint ---
 
-The code below worked for the windmill crazy golf obstacle, but play with the numbers to find what works best for you and your project.
+The code below worked for the windmill minigolf obstacle, but play with the numbers to find what works best for you and your project.
 
 ```blocks3
 when flag clicked
