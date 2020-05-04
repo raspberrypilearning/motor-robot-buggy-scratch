@@ -37,14 +37,6 @@ You can adapt your design as you go along and you find problems, possibilities, 
 
 ![Example buggy](images/buggy_exampleBuggy.png)
 
---- task ---
-
-Make a quick design sketch of what you want your buggy to look like and importantly, where all your components fit.
-
-![Example buggy design sketch](images/buggy_designSketch.png)
-
-The sketch above showed that the size of the chassis (the buggy's main body) would be dictated by the combined width of the two gear motors and the battery box. I laid them out on a piece of cardboard to see how wide the chassis would need to be.
-
 --- /task ---
 
 You do not need the perfect box for a robot buggy. Chances are you may find a great box, pieces of cardboard, or other packaging around your home, school, or wherever you are.
