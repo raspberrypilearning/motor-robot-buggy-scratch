@@ -10,7 +10,7 @@ You do not need any of the code in you `forever`{:class="block3control"} loop or
 
 --- /task ---
 
-Now, you're going to add to your `custom movement blocks`{:class="block3myblocks"} so that each `sets gpio pins high`{:class="block3extensions"}, `waits`{:class="block3control"}, and then `sets gpio pins low`{:class="block3extensions"} again.
+Now you're going to add to your `custom movement blocks`{:class="block3myblocks"} so that each `sets gpio pins high`{:class="block3extensions"}, `waits`{:class="block3control"}, and then `sets gpio pins low`{:class="block3extensions"} again.
 
 The clever coding here is to build the `wait time`{:class="block3control"} into the `custom blocks`{:class="block3myblocks"}.
 
@@ -72,7 +72,7 @@ forwards (0.5) :: custom
 
 --- task ---
 
-Repeat the last step, add a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"} and `time`{:class="block3myblocks"} custom blocks.
+Repeat the last step, add a `time`{:class="block3myblocks"} input for the `time`{:class="block3myblocks"}, `time`{:class="block3myblocks"}, and `time`{:class="block3myblocks"} custom blocks.
 
 ```blocks3
 define backwards (time :: custom) :: custom
@@ -156,7 +156,7 @@ forwards (0.5) :: custom
 
 **Note**: You need to make sure the robot goes back to the exact same place and faces the exact same way. Otherwise you'll get different results each time and it becomes almost impossible to get it right. 
 
-Use bits of tape or other markers to mark where your robot needs to start each time.
+Use bits of tape or other markers to show where your robot needs to start each time.
 
 ![Maze trials](images/mazeJourneys_mazeStartMarkers.png)
 
@@ -184,7 +184,7 @@ Try it out. If it wasn't right, work out how you need to adjust it and try again
 
 --- /task ---
 
-You might well find that you made your maze far too hard for a first maze. A challenge is good but if it gets frustrating, don't be afraid to alter your maze to make it a challenge but within reach.
+You might well find that you made your maze far too hard for a first maze. A challenge is good but if it gets frustrating, don't be afraid to alter your maze to make it easier to suceed.
 
 --- no-print ---
 ![Maze trials](images/mazeJourneys_mazeTrial4.gif)
