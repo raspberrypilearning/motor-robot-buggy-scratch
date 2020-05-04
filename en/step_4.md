@@ -38,7 +38,7 @@ In the example, the back of the windmill has been cut out to make it easier to a
 
 Once you have constructed your project, open Scratch 3 and start coding.
 
-Your program will depend on what you are trying to achieve. To make a simple motor on/off, use one keyboard key to set the correct pin on, and another to turn it off.
+Your program will depend on what you are trying to achieve. To make a simple motor on/off system, use one keyboard key to set the correct pin on, and another to turn it off.
 
 ```blocks3
 when [up arrow v] key pressed
