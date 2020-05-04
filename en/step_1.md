@@ -37,7 +37,7 @@ title: What you will need
 + A 4x AA battery box with on/off switch
 + Materials to make you robot buggy chassis
 
-**Note:** Many low-cost gear motors are available without the wires already attached. These work fine, but unless you are going to solder the wires on yourself, you may find it difficult to connect the motor controller. If you decide to solder wires onto gear motors, take a look at the ['Build a robot buggy' project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}. There are also kits available that contain all the robot components you need, such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
+**Note:** Many low-cost gear motors are available without the wires already attached. These work fine, but unless you are going to solder the wires on yourself, you may find it difficult to connect the motor controller. If you decide to solder wires onto gear motors, take a look at the [Build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}. There are also kits available that contain all the robot components you need, such as the [CamJam EduKit 3 Robotics kit](https://thepihut.com/products/camjam-edukit-3-robotics){:target="_blank"}.
 
 ### Software
 
