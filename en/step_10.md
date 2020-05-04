@@ -188,7 +188,7 @@ forever
 
 --- /task ---
 
-The only thing left to do is add a central **stop** sprite. A sprite in the centre of the the four _direction_ sprites that turns all GPIO pins low when touched by the mouse pointer.
+The only thing left to do is add a central **stop** sprite. A sprite in the centre of the four _direction_ sprites that turns all GPIO pins low when touched by the mouse pointer.
 
 --- task ---
 
@@ -226,7 +226,7 @@ Now all the coding is done, test the program out. Press the **space** key to sta
 
 Think about how you would improve this remote control.
 
-You may find it hard to look at the remote and where the mouse pointer was **and** see what the robot was doing at the same time. If this is the case, it would be useful to make the different direction sprites as large as possible on the screen.
+You may find it hard to look at the remote, see where the mouse pointer was, **and** see what the robot was doing at the same time. If this is the case, it would be useful to make the different direction sprites as large as possible on the screen.
 
 --- no-print ---
 ![Robot buggy](images/altVisualRemote_gameplay2.gif)
