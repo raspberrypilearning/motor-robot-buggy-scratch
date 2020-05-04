@@ -51,7 +51,7 @@ You might want to use a piece of packaging just as it comes, make adjustments to
 
 ![Example buggy](images/buggy_exampleBuggy3.png)
 
-Hot melt glue guns are not necessary but are an ideal tool for putting your robot buggy together.
+Hot melt glue guns are not a necessity but are an ideal tool for putting your robot buggy together.
 
 Have your motors secured both below and above, like a _motor sandwich_, makes them stable. Your robot is able to drive much better if the motors are firmly in place. 
 
