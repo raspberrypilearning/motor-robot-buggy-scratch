@@ -59,7 +59,7 @@ set gpio (7 v) to output [low v] ::extension
 
 --- task ---
 
-Finally, add a block from the `control` block palette to `stop all`{:class="block3control"} to ensure the motors won't start again until you want them to.
+Finally, add a block from the `control` block palette to `stop all`{:class="block3control"} to make sure the motors won't start again until you want them to.
 
 ```blocks3
 when [q v] key pressed
@@ -76,7 +76,7 @@ That's the completed _kill switch_, it turns off all the motors. Press the **q**
 
 ### Test codes
 
-The next step is to write a snippet of code for each motor that to tell you what that motor does.
+The next step is to write a snippet of code for each motor to tell you what that motor does.
 
 --- task ---
 
@@ -112,7 +112,7 @@ set gpio (7 v) to output [high v] ::extension
 +   set gpio (7 v) to output [low v] ::extension
 ```
 
-Now the motor turns on, and shows which motor and which direction, then quickly turn off again. Press the **7** key to test it.
+Now the motor turns on, and shows which motor and direction, then quickly turn off again. Press the **7** key to test it.
 
 --- /task ---
 
@@ -141,7 +141,7 @@ wait (0.1) seconds
 set gpio (10 v) to output [low v] ::extension
 ```
 
-**Note:** You could just make these blocks for pins 7 and 9 only, since pin 8 moves the same motor as pin 7 but in the opposite direction and the same goes for pins 9 and 10.
+**Note:** You could just make these blocks for pins 7 and 9 only, since pin 8 moves the same motor as pin 7 but in the opposite direction, the same goes for pins 9 and 10.
 
 Press the **8**, **9**, and **10** keys in turn to see what each does.
 
