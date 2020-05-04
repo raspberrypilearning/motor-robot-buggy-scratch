@@ -8,7 +8,7 @@ The changes could involve more making, more coding, or both! There is no right o
 
 If you feel overwhelmed by open possibilities, how about turning your creation into a _minigolf_ obstacle where you have to try and get a ball past your moving obstacle?
 
-The crazy minigolf idea doesn't need to end there. You could have a moving obstacle to try and get a remote control buggy past, or something else, like a Sphero. Use whatever you can get your hands on!
+The minigolf idea doesn't need to end there. You could have a moving obstacle to try and get a remote control buggy past, or something else, like a Sphero. Use whatever you can get your hands on!
 
 --- no-print ---
 
