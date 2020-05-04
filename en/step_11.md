@@ -21,7 +21,7 @@ stop [all v]
 
 --- /task ---
 
-A simple way to code the keyboard remote would be to use when key pressed{:class="lboack3events"} events to trigger code that turns the motor GPIO pins on then off in a very similar way to the **Scratch visual remote** section. Let's try a more advanced approach, that is far more responsive in use.
+A simple way to code the keyboard remote would be to use when key pressed{:class="block3events"} events to trigger code that turns the motor GPIO pins on then off in a very similar way to the **Scratch visual remote** section. Let's try a more advanced approach, that is far more responsive in use.
 
 The first step is to make new Scratch blocks that define movement in each direction.
 
