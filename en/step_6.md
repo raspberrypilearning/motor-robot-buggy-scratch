@@ -1,6 +1,6 @@
 ## Reaction game
 
-There are so many things that you can make from a motor. Why not make a piece of moving art, a motorised scene from history, a winch, or maybe a completely new idea?
+There are so many things that you can make from a motor. Why not make a piece of moving art, a motorised scene from history, a winch, or maybe your own completely new creation? 
 
 Have a go at this simple reaction game and then try to make something of your own.
 
