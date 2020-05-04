@@ -38,7 +38,7 @@ Adapt your project model so that there is space for the Raspberry Pi, battery bo
 
 **Note:** The target does not have to be a part of your original project model. The target could be somewhere _beyond_ your obstacle where the ball needs to pass your obstacle safely.
 
-In the example project, a shelf was needed to the electronics.
+In the example project, a shelf was needed for the electronics.
 
 ![A shelf for the Pi](images/adaptation_shelf.png)
 
