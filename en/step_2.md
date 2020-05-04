@@ -4,7 +4,7 @@ There are two common ways to connect a **motor controller** to your Rapsberry Pi
 + Plug it straight onto the GPIO pins
 + Use jumper cables or wires to connect it
 
-A common and very inexpensive motor controller is the L298N Dual H Bridge DC Stepper Motor Driver Controller Board, which is connected with jumper cables and wires. If you have this kind of controller, there are simple instructions on how to connect it in the ['Build a robot buggy' project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
+A common and very inexpensive motor controller is the L298N Dual H Bridge DC Stepper Motor Driver Controller Board, which is connected with jumper cables and wires. If you have this kind of controller, there are simple instructions on how to connect it in the [Build a robot buggy project](https://projects.raspberrypi.org/en/projects/build-a-buggy/2){:target="_blank"}.
 
 ![L298N dual H bridge motor controller](images/setup_L298N.png)
 
@@ -12,9 +12,9 @@ The instructions here are for a [CamJam EduKit 3 motor controller](https://thepi
 
 ![Motor controller on GPIO pins](images/setup_mcOnGPIO.png)
 
-The controller fits to the end GPIO pins nearest the edge of the board with the body of the controller, facing inwards over the Raspberry Pi.
+The controller fits to the end GPIO pins nearest the edge of the board; the body of the controller faces inwards over the Raspberry Pi.
 
-Most _plug-on_ motor controller boards have a similar format with a **power-in** terminal, a **negative** terminal, and then a **positive** and **negative** terminal for each motor output. In most cases, the Pi still needs its own power supply and a battery pack is used to power the motors via the controller.
+Most _plug-on_ motor controller boards have a similar format with a **power-in** terminal, a **negative ground** terminal, and then a **positive** and **negative** terminal for each motor output. In most cases, the Pi still needs its own power supply and a battery pack is used to power the motors via the controller.
 
 ![Motor controller on GPIO pins closeup](images/setup_mcOnGPIOcloseup.png)
 
