@@ -19,7 +19,7 @@ Your robot buggy needs to hold:
 
 + A Raspberry Pi 4
 + A 4xAA battery box
-+ A power supply for the Raspberry Pi, e.g. a USB powerbank
++ A power supply for the Raspberry Pi, e.g. a USB power bank
 
 --- /task ---
 
