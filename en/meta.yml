@@ -2,8 +2,8 @@ title: motor-robot-buggy-scratch
 hero_image: images/banner.png
 description: motor-robot-buggy-scratch description
 version: 5
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2019-11-05"
 steps:
   - title: Introduction
