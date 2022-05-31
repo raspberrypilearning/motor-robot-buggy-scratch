@@ -1,22 +1,27 @@
+---
 title: Motors, robot buggies and Scratch 3
 hero_image: images/banner.png
 description: Fun things to do with motors, a Raspberry Pi 4 and Scratch 3
 version: 5
 listed: true
 copyedit: true
-last_tested: "2019-11-05"
+last_tested: '2019-11-05'
 steps:
-  - title: Introduction
-  - title: Set up your motors
-  - title: Test the motors with Scratch
-  - title: What are motors for?
-  - title: "Challenge: Adapt your motor project"
-    challenge: true
-  - title: Reaction game
-  - title: How to make a robot buggy
-  - title: Remote Scratch and RealVNC
-  - title: Scratch visual remote
-  - title: Alternative visual remote
-  - title: Scratch keyboard remote
-  - title: Programmed maze journeys
-  - title: What next?
+- title: Introduction
+- title: Set up your motors
+- title: Test the motors with Scratch
+  completion:
+  - engaged
+- title: What are motors for?
+- title: 'Challenge: Adapt your motor project'
+  challenge: true
+- title: Reaction game
+- title: How to make a robot buggy
+- title: Remote Scratch and RealVNC
+- title: Scratch visual remote
+- title: Alternative visual remote
+- title: Scratch keyboard remote
+- title: Programmed maze journeys
+  completion:
+  - internal
+- title: What next?
