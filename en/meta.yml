@@ -8,9 +8,10 @@ copyedit: true
 last_tested: '2019-11-05'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Set up your motors
 - title: Test the motors with Scratch
+  completion:
+  - engaged
 - title: What are motors for?
 - title: 'Challenge: Adapt your motor project'
   challenge: true
@@ -20,6 +21,7 @@ steps:
 - title: Scratch visual remote
 - title: Alternative visual remote
 - title: Scratch keyboard remote
-  completion: internal
 - title: Programmed maze journeys
+  completion:
+  - internal
 - title: What next?
