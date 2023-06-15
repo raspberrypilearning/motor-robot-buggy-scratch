@@ -215,7 +215,7 @@ forever
 Now all the coding is done, test the program out. Press the **space** key to start and hover over the sprites to make your buggy move.
 
 --- no-print ---
-![Robot buggy](images/altVisualRemote_gameplay.gif)
+![An animation showing a laptop with the scratch project open and the Robot buggy driving backwards and forwards and spinning in circles.](images/altVisualRemote_gameplay.gif)
 --- /no-print ---
 
 --- print-only ---
@@ -229,7 +229,7 @@ Think about how you would improve this remote control.
 You may find it hard to look at the remote, see where the mouse pointer was, **and** see what the robot was doing at the same time. If this is the case, it would be useful to make the different direction sprites as large as possible on the screen.
 
 --- no-print ---
-![Robot buggy](images/altVisualRemote_gameplay2.gif)
+![Animation showing the Robot buggy driving around and a laptop with much larger direction sprites in the Scratch project.](images/altVisualRemote_gameplay2.gif)
 --- /no-print ---
 
 --- print-only ---
