@@ -3,7 +3,7 @@ title: Motors, robot buggies and Scratch 3
 hero_image: images/banner.png
 description: Fun things to do with motors, a Raspberry Pi 4 and Scratch 3
 version: 5
-listed: true
+listed: false
 copyedit: true
 last_tested: '2019-11-05'
 steps:
